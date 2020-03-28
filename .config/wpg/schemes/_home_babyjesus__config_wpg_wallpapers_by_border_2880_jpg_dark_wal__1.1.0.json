@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/babyjesus/.config/wpg/wallpapers/by_border_2880.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#261d18",
+        "foreground": "#a79c98",
+        "cursor": "#a79c98"
+    },
+    "colors": {
+        "color0": "#261d18",
+        "color1": "#C8A064",
+        "color2": "#a79c98",
+        "color3": "#ddbba0",
+        "color4": "#a28877",
+        "color5": "#ae826f",
+        "color6": "#ffd36e",
+        "color7": "#a79c98",
+        "color8": "#45383d",
+        "color9": "#ffd36e",
+        "color10": "#ffffff",
+        "color11": "#ad897b",
+        "color12": "#ad897b",
+        "color13": "#ffe0aa",
+        "color14": "#ffd36e",
+        "color15": "#a79c98"
+    }
+}

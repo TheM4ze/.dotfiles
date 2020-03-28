@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/babyjesus/.config/wpg/wallpapers/AGIF20F.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#05090f",
+        "foreground": "#cdcfd0",
+        "cursor": "#cdcfd0"
+    },
+    "colors": {
+        "color0": "#05090f",
+        "color1": "#767D82",
+        "color2": "#fffbf8",
+        "color3": "#87875f",
+        "color4": "#bcc2b9",
+        "color5": "#8f9e65",
+        "color6": "#7e8e79",
+        "color7": "#cdcfd0",
+        "color8": "#217385",
+        "color9": "#edffdd",
+        "color10": "#fffbf8",
+        "color11": "#87875f",
+        "color12": "#217385",
+        "color13": "#87875f",
+        "color14": "#e2a478",
+        "color15": "#cdcfd0"
+    }
+}

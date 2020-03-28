@@ -1,0 +1,37 @@
+#Pacman
+alias update='sudo pacman -Syyu'
+alias install="sudo pacman -S"
+alias rns="sudo pacman -Rns $(pacman -Qtdq)"
+alias q="exit"
+
+#MakePKG
+alias mp="makepkg -si"
+
+#GitHub
+alias g="git"
+alias ga="git add "
+alias gc="git clone"
+alias gr="git remote add origin https://github.com/TheM4ze/.dotfiles"
+alias gp="git push -u origin master"
+
+#hardware info --short
+alias hw="hwinfo --short"
+
+#Thunar
+alias st="sudo thunar"
+
+#list
+alias ls='ls --color=auto'
+alias la='ls -a'
+alias ll='ls -la'
+alias l='ls'
+alias l.="ls -A | egrep '^\.'"
+
+#use all cores
+alias uac="sh ~/.bin/main/000*"
+
+#gpg
+#verify signature for isos
+alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
+#receive the key of a developer
+alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/babyjesus/.config/wpg/wallpapers/snow-covered-mountain-1428277.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#100d0c",
+        "foreground": "#333b3e",
+        "cursor": "#333b3e"
+    },
+    "colors": {
+        "color0": "#100d0c",
+        "color1": "#080d10",
+        "color2": "#7baae8",
+        "color3": "#526670",
+        "color4": "#818c92",
+        "color5": "#797F7C",
+        "color6": "#333b3e",
+        "color7": "#353d43",
+        "color8": "#768a93",
+        "color9": "#5e656f",
+        "color10": "#353d43",
+        "color11": "#7baae8",
+        "color12": "#5e656f",
+        "color13": "#353d43",
+        "color14": "#7baae8",
+        "color15": "#333b3e"
+    }
+}

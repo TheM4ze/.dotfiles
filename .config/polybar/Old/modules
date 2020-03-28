@@ -1,0 +1,79 @@
+
+[module/hostname]
+type = custom/script
+interval = 256
+format = "<label> "
+format-prefix = "  "
+format-foreground = #87875F
+format-prefix-foreground =
+format-padding = 0
+format-background =
+exec = echo "$(uname -n)"
+
+
+[module/powermenu]
+type = custom/menu
+
+label-open = "%{T4}   %{T-}  %{T4}   %{T-}"
+label-close =
+format = <label-toggle><menu>
+label-separator = " - "
+
+format-foreground = #87875F
+format-background =
+
+menu-0-0 = 
+menu-0-0-exec = menu-open-1
+menu-0-1 = 
+menu-0-1-exec = menu-open-2
+menu-0-2 = 
+menu-0-2-exec = menu-open-3
+menu-0-3 = "   "
+
+menu-1-0 = 
+menu-1-0-exec = systemctl suspend -i
+menu-1-1 = "   "
+
+menu-2-0 = 
+menu-2-0-exec = systemctl reboot -i
+menu-2-1 = "  "
+
+menu-3-0 = 
+menu-3-0-exec = systemctl poweroff -i
+menu-3-1 = "  "
+
+
+[module/youtube]
+type = custom/text
+content =
+content-padding = 1
+content-background =
+content-foreground = #F2F2F2
+click-left = xdg-open https://www.youtube.com/
+
+
+[module/reddit]
+type = custom/text
+content =
+content-padding = 1
+content-background =
+content-foreground = #F2F2F2
+click-left = xdg-open https://www.reddit.com/r/unixporn/
+
+
+[module/github]
+type = custom/text
+content =
+content-padding = 1
+content-background =
+content-foreground = #F2F2F2
+click-left = xdg-open https://github.com/TheTheM4ze
+
+
+[module/firefox]
+type = custom/text
+content =
+content-padding = 1
+content-background =
+content-foreground = #F2F2F2O
+click-left = xdg-open moz-extension://592c6bbd-0266-4064-938b-e15f1de0fd90/index.html
