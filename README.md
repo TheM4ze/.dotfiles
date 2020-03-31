@@ -1,5 +1,4 @@
-
-			    .___      __    _____.__.__                 
+                            .___      __    _____.__.__                 
 			  __| _/_____/  |__/ ____\__|  |   ____   ______
 			 / __ |/  _ \   __\   __\|  |  | _/ __ \ /  ___/
 			/ /_/ (  <_> )  |  |  |  |  |  |_\  ___/ \___ \ 
@@ -31,6 +30,6 @@ These are the dotfiles for my ArchLinux bspwm rice...
 Screenshot
 ----------
 	
-	![GitHub Logo](https://i.imgur.com/mZokit5.png)
-	![GitHub Logo](https://i.imgur.com/gxpSYB0.png)
-	![GitHub Logo](https://i.imgur.com/NUOOlrw.png)
+![GitHub Logo](https://i.imgur.com/mZokit5.png)
+![GitHub Logo](https://i.imgur.com/gxpSYB0.png)
+![GitHub Logo](https://i.imgur.com/NUOOlrw.png)
