@@ -2,12 +2,11 @@
 
 
 
-# bspwm
+Introduction
+------------
 
+This repo contains config/scripts for my bspwm desktop
 
-These are the dotfiles for my ArchLinux bspwm rice...
-
-- Settings for:
 	
 	- oh-my-zsh (shell)
 	- bspwm (window manager)
