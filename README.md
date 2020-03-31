@@ -1,4 +1,4 @@
-                                         Welcome to my dotfiles
+                                         Welcome To My Dotfiles
 
 
 
