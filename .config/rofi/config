@@ -1,0 +1,54 @@
+
+
+==================  COLORS  ==================
+
+
+
+! State:                                'bg'        'fg'     'bgalt'      'hlbg'    'hlfg'
+
+rofi.color-normal:                   #100D0C,   #5E656F,  #100D0C,   #7BAAE8,  #100D0C,
+rofi.color-active:                   #100D0C,   #5E656F,  #100D0C,   #7BAAE8,  #100D0C,
+
+! State:                            'background'    'border'    'separator'
+rofi.color-window:                    #100D0C,     #100D0C,      #ebedf8,
+
+
+
+
+==================  SETTINGS  ==================
+
+rofi.modi:                           window,run,drun
+rofi.width:                          50%
+rofi.height:                         90%
+rofi.lines:                          10
+rofi.columns:                        2
+rofi.padding:                        40
+rofi.line-padding:                   2
+rofi.opacity: 200
+
+rofi.line-margin:  10
+rofi.font: JetBrains Mono bold 10
+rofi.bw:  0
+rofi.case-sensitive:   false
+rofi.terminal: 	konsole
+rofi.eh:  1
+!rofi.sidebar-mode:  true
+rofi.separator-style:  none
+rofi.auto-select:   true
+rofi.hide-scrollbar:  true
+rofi.fake-transparency:  true
+rofi.oppacity: 50
+rofi.fuzzy:  true
+rofi.scroll-method:  1
+rofi.window-format:  {t}
+
+rofi.fixed-num-lines:                true
+rofi.terminal:                       konsole
+rofi.ssh-client:                     ssh
+rofi.ssh-command:                    {terminal} -e {ssh-client} {host}
+rofi.run-command:                    {cmd}
+rofi.parse-hosts:                    true
+rofi.matching:                       normal
+rofi.separator-style:                none
+rofi.scrollbar-width:                3
+
