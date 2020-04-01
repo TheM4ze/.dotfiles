@@ -9,8 +9,8 @@ terminal_exec        = xterm
 terminal_args        = -e
 #monitor             = 0
 
-menu_margin_x        = 4
-menu_margin_y        = 32
+menu_margin_x        = 12
+menu_margin_y        = 49
 menu_width           = 200
 menu_padding_top     = 10
 menu_padding_right   = 2
@@ -38,7 +38,7 @@ item_border          = 0
 
 sep_height           = 5
 
-font                 = JetBrains Mono 8
+font                 = JetBrains Mono Bold 8
 #font_fallback       = xtg
 icon_size            = 24
 #icon_text_spacing   = 10
@@ -46,7 +46,7 @@ icon_size            = 24
 #icon_theme_fallback = xtg
 
 #arrow_string        = ▸
-#arrow_width         = 15
+#arrow_width         = 25
 
 color_menu_bg        = #100D0C 100
 color_menu_fg        = #5E656F 100
@@ -55,8 +55,8 @@ color_menu_fg        = #5E656F 100
 color_norm_bg        = #100D0C 0
 color_norm_fg        = #5E656F 100
 
-color_sel_bg         = #333B3E 60
-color_sel_fg         = #5E656F 100
+color_sel_bg         = #7BAAE8 100
+color_sel_fg         = #100D0C 100
 color_sel_border     = #100D0C 8
 
 color_sep_fg         = #333B3E 40
