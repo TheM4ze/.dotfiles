@@ -65,12 +65,6 @@ ctrl + alt + a
 ctrl + alt + m
      xfce4-settings-manager
 
-ctrl + shift + Escape
-    xfce4-taskmanager
-
-F12
-    xfce4-terminal --drop-down
-
 ctrl + alt + p
     pamac-manager
 
@@ -95,9 +89,7 @@ ctrl + Escape
 #------------------------------------LOCKSCREEN
 
 
-#Slimlock
-super + shift + l
-    slimlock
+
 
 
 #------------------------------------SCREENSHOTS
@@ -176,10 +168,6 @@ super + y
 #Toggle fullscreen of window
 super + shift + f
 	bspc node --state \~fullscreen
-
-# Toggle pseudo tiling of window
-super + p
-	bspc node --state \~pseudo_tiled
 
 # Focus/swap windows by direction
 super + ctrl + {Left,Down,Up,Right}
