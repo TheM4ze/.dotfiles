@@ -8,15 +8,16 @@ Introduction
 This repo contains config/scripts for my bspwm desktop
 
 	
-	- oh-my-zsh (shell)
-	- bspwm (window manager)
-	- polybar (status bar)
-	- sxhkd (general key binder)
-	- thunar (file manager)
+	- oh-my-zsh [shell]
+	- Spaceship & Starship [oh-my-zsh themes]
+	- bspwm [window manager]
+	- polybar [status bar]
+	- sxhkd [general key binder]
+	- thunar [file manager]
 	- VSCodium
 	- rofi
 	- jgmenu
-	- other stuff like blurwal,wpgtk and more, etc.
+	- other stuff like blurwal,wpgtk,pywal and more, etc.
 	
 Screenshot
 ----------
