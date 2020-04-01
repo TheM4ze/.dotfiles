@@ -47,7 +47,6 @@ modules-left = my-text-label bspwm
 modules-center = 
 modules-right = date
 
-
 ;**********************************************************
 ;
 ;                          COLORS
@@ -72,8 +71,8 @@ type = custom/text
 content = bspwm
 
 ; "content" has the same properties as "format-NAME"
-content-background = 
-content-foreground = #7BAAE8
+content-background = #7BAAE8
+content-foreground = #100D0C
 content-padding = 2
 
 [module/bspwm]
@@ -81,23 +80,25 @@ type = internal/bspwm
 
 label-focused = %index%
 label-focused-background = 
-label-focused-underline= 
-label-focused-foreground= #8CD7AA
+label-focused-underline = 
+label-focused-foreground = #7BAAE8
 label-focused-padding = 2
 
 label-occupied = %index%
 label-occupied-padding = 2
+label-occupied-foreground = 
 
 label-urgent = %index%!
 label-urgent-background = 
 label-urgent-padding = 2
 
 label-empty = %index%
+label-empty-background = 
 label-empty-foreground = #5E656F
 label-empty-padding = 2
 
 ; Separator in between workspaces
-; label-separator = |
+label-separator =                                            
 
 ;--------------------------------------------- TOP RIGHT MODULES 
 
@@ -108,6 +109,8 @@ interval = 60
 time = %A, %B %d  - %I:%M %p
 label = %time%
 label-padding = 2
+
+
 
 
 
@@ -225,5 +228,4 @@ click-left = rofi -modi run,drun,window -show drun
 format-padding = 1
 format-foreground = #8CD7AA
 format-underline =
-#7BAAE8
 
