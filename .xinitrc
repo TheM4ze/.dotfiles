@@ -22,8 +22,6 @@ exec bspwm
 
 borders &
 
-
-
 xrdb ~/.Xresources &
 xrdb -merge ~/.Xresources &
 xrdb -load ~/.Xresources &
