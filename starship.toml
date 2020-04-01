@@ -3,14 +3,15 @@ add_newline = true
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]      # The name of the module we are configuring is "character"
-symbol = "↳ "     # The "symbol" segment is being set to "➜"
+symbol = "↳"     # The "symbol" segment is being set to "➜"
 
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = false
 
-# Overwrite a default_prompt_order and  use custom prompt_order
-prompt_order= ["time","username","hostname","git_branch",]
+# Put everything in 1 line,don't separate time and command into the 2nd line
+[line_break]
+disabled = false
 
 [time]
 disabled = false
@@ -19,19 +20,21 @@ utc_time_offset = "local"
 
 [username]
 disabled = false
-style = "underline"
 show_always = true
-prefix = "✘ ♅ ♅ ✘"
-suffix = " Ǿ "
-style_root = "bold white"
 
 [hostname]
 ssh_only = false
-prefix = " "
+prefix = ""
 suffix = " ✘ ♰ ✘"
 disabled = false
 
 [git_branch]
-symbol = "  "
-truncation_length = 4
-style = "fg:15"
+symbol = " "
+truncation_length = 15
+
+[git_commit]
+commit_hash_length = 10
+
+[cmd_duration]
+min_time = 100
+prefix = "took "
