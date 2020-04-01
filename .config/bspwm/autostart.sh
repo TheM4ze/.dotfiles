@@ -31,6 +31,7 @@ run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 run volumeicon &
 run firefox &
 run dunst &
