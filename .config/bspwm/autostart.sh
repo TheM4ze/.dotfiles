@@ -11,23 +11,25 @@ function run {
 /home/babyjesus/.config/polybar/launch.sh
 xrdb ~/.Xresources
 
+#sxhkd
+run sxhkd -c ~/.config/sxhkd/sxhkdrc &
+
+#picom
+picom --config $HOME/.config/picom.conf &
+
 #blurwal
 blurwal --m 1 &
 
 #borders [inner+outer]
-/home/babyjesus/.config/bspwm/borders &
+#/home/babyjesus/.config/bspwm/borders &
 
 #feh wallpaper
 feh --no-fehbg --bg-fill
 
 xsetroot -cursor_name left_ptr &
-run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
-
-
 run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
-picom --config $HOME/.config/bspwm/picom.conf &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 run volumeicon &
 run firefox &
