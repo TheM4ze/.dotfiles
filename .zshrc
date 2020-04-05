@@ -10,10 +10,10 @@ SPACESHIP_CHAR_SYMBOL=" ↳ "
 
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_PREFIX="✘ Ǿ ✘ "
-SPACESHIP_USER_COLOR_ROOT="red"
+#SPACESHIP_USER_COLOR_ROOT="red"
 
 SPACESHIP_HOST_SHOW="always"
-SPACESHIP_HOST_PREFIX=""
+SPACESHIP_HOST_SUFFIX=""
 SPACESHIP_HOST_PREFIX=""
 
 SPACESHIP_DIR_TRUNC="0"
@@ -33,7 +33,6 @@ SPACESHIP_JOBS_SHOW="true"
 export ZSH="/home/babyjesus/.oh-my-zsh"
 
 
-
 # Disable bi-weekly auto-update checks.
 DISABLE_AUTO_UPDATE="true"
 
@@ -41,23 +40,22 @@ DISABLE_AUTO_UPDATE="true"
 source $ZSH/oh-my-zsh.sh
 source ~ / .bash_profile
 
-
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/aliasrc" ] && source "$HOME/aliasrc"
 
 
-
 # Plugin list in ~/.oh-my-zsh/plugins
 plugins=(
+    sudo
     zsh-syntax-highlighting
     zsh-autosuggestions
-    sudo
     adb
     zsh_reload
 )
 
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
+
 
 
 #!/bin/sh
@@ -70,8 +68,10 @@ xrdb -load ~/.Xresources
 
 #'/home/babyjesus/.bin/terminal/colors'
 
-
 # Load zsh-syntax-highlighting; should be last.
 
 source /home/babyjesus/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+#StartShip
+eval "$(starship init zsh)"
