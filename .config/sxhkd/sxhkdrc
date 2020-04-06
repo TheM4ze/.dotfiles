@@ -24,6 +24,7 @@ super + shift + k
 
 #------------------------------------APPLICATIONS
 
+
 alt + s
    bspc rule -a \* -o state=floating && st
 
