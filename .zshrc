@@ -57,14 +57,9 @@ plugins=(
 export PATH="/usr/lib/ccache/bin/:$PATH"
 
 
-
 #!/bin/sh
 #feh --no-fehbg
 
-#neofetch
-xrdb ~/.Xresources
-xrdb -merge ~/.Xresources
-xrdb -load ~/.Xresources
 
 #'/home/babyjesus/.bin/terminal/colors'
 
