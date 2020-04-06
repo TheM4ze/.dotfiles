@@ -57,14 +57,9 @@ plugins=(
 export PATH="/usr/lib/ccache/bin/:$PATH"
 
 
-#!/bin/sh
-#feh --no-fehbg
-
-
 #'/home/babyjesus/.bin/terminal/colors'
 
 # Load zsh-syntax-highlighting; should be last.
-
 source /home/babyjesus/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
