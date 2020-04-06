@@ -27,9 +27,8 @@ super + shift + k
 alt + s
    bspc rule -a \* -o state=floating && st
 
-
 super + Return
-    konsole
+		bspc rule -a \* -o state=floating && konsole
 
 super + f
 	firefox
