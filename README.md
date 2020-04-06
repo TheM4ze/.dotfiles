@@ -7,7 +7,7 @@ Introduction
 
 This repo contains config/scripts for my bspwm desktop
 
-	
+
 	- oh-my-zsh [shell]
 	- Spaceship & Starship [oh-my-zsh themes]
 	- bspwm [window manager]
