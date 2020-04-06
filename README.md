@@ -19,7 +19,7 @@ This repo contains config/scripts for my bspwm desktop
 	- jgmenu
 	- other stuff like blurwal,wpgtk,pywal and more, etc.
 
-Screenshot >
+Screenshot
 ----------
 
 ![GitHub Logo](https://i.imgur.com/IYxr2AL.png)
