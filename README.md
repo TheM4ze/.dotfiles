@@ -24,5 +24,5 @@ Screenshot
 	
 ![GitHub Logo](https://i.imgur.com/IYxr2AL.png)
 ![GitHub Logo](https://i.imgur.com/crwsUpH.png)
-![GitHub Logo](https://i.imgur.com/joDBeUn.png)
+![GitHub Logo](https://i.imgur.com/GZA4334.png)
 ![GitHub Logo](https://i.imgur.com/XlAlCnY.png)
