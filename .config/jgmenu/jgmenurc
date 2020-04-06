@@ -46,7 +46,7 @@ icon_size            = 24
 #icon_theme_fallback = xtg
 
 #arrow_string        = ▸
-#arrow_width         = 25
+4arrow_width         = 25
 
 color_menu_bg        = #100D0C 100
 color_menu_fg        = #5E656F 100

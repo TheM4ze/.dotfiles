@@ -10,6 +10,7 @@ function run {
 #autostart
 /home/babyjesus/.config/polybar/launch.sh
 xrdb ~/.Xresources
+~/.config/rofi/askpass.rasi &
 
 #sxhkd
 run sxhkd -c ~/.config/sxhkd/sxhkdrc &

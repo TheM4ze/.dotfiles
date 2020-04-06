@@ -26,4 +26,3 @@ xrdb ~/.Xresources &
 xrdb -merge ~/.Xresources &
 xrdb -load ~/.Xresources &
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
-

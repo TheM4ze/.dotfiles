@@ -5,12 +5,12 @@ alias rns="sudo pacman -Rns $(pacman -Qtdq)"
 alias q="exit"
 
 #MakePKG
-alias mp="makepkg -si"
+alias mp="makepkg -si "
 
 #GitHub
 alias g="git"
 alias ga="git add "
-alias gc="git clone"
+alias gc="git clone "
 alias gr="git remote add origin https://github.com/TheM4ze/.dotfiles"
 alias gp="git push -u origin master"
 
@@ -35,3 +35,4 @@ alias uac="sh ~/.bin/main/000*"
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 #receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+
