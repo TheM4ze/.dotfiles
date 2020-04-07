@@ -41,5 +41,3 @@ bspc rule -a Gpick state=floating sticky=on
 bspc rule -a Pavucontrol state=floating sticky=on
 bspc rule -a konsole state=floating
 bspc rule -a st state=floating
-
-
