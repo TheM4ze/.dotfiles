@@ -53,7 +53,7 @@ super + m
     jgmenu
 
 super + g
-    geany
+    gpick
 
 
 #------------------------------------SYSTEM APPLICATIONS
