@@ -1,9 +1,9 @@
 :root {
-	--bar-height: 120px;
+	--bar-height: 50px;
 }
 
 body {
-	font-family:  JetBrains Mono;
+	font-family:  Iosevka Extended;
 	font-weight:normal;
 	font-style:normal;
 	}
@@ -214,7 +214,7 @@ Collage of 3 album covers is usually seen in Browse and Chart.
 	padding: 5px 10px 5px 10px !important;
 	background-color: var(--modspotify_main_bg) !important;
 	border-radius: 4px;
-	border: 2px solid var(--modspotify_main_fg);
+	border: 2px solid #d2fce4;
 }
 
 /*
@@ -283,7 +283,7 @@ Change text color in playlist
 .tl-cell:not(.tl-number),
 .tl-cell a:link,
 .tl-highlight {
-  color: var(--modspotify_secondary_fg);
+  color: var(--modspotify_main_fg);
 }
 
 .card-type-album .card-info-title,
@@ -346,7 +346,7 @@ Change text color in playlist
 
 #video-player .album-art__foreground {
 	flex-direction: row;
-	text-align: left;
+	text-align: left;	
 }
 
 #video-player .album-art__background {
@@ -491,7 +491,7 @@ body:not(.body-container--windows) .content-top-bar__profile-menu-button .dropdo
 .Button--style-green,
 .button.button-green, .button.button-white {
 	border-radius: 4px;
-	color: var(--modspotify_main_bg) !important;
+	color: #d2fce4 !important;
 }
 
 .glue-page-header:not(.glue-page-header--album):not(.glue-page-header--playlist):not(.glue-page-header--artist):not(.glue-page-header--dailymix):not(.glue-page-header--user):not(.glue-page-header--show)
@@ -569,19 +569,19 @@ span.glue-page-header__title-text {
 }
 
 .view-player .now-playing-container .button-add {
-	color: var(--modspotify_main_fg) !important;
+	color: #d2fce4 !important;
 }
 
 .progress-container .progress-bar,
 .progress-container .inner {
 	top: 0 !important;
 	margin-top: 0 !important;
-	height: 5px;
+	height: 2px;
 }
 
 .progress-container .progress-bar-wrapper {
 	top: 0 !important;
-	height: 5px;
+	height: 2px;
 }
 
 .progress-container {

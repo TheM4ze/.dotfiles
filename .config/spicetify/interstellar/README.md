@@ -2,8 +2,8 @@
 
 ## Screenshots
 
-![Screenshot 1](./screenshot1.jpg)
-![Screenshot 2](./screenshot2.jpg)
+![Screenshot 1](https://i.imgur.com/2uI2X9I.png)
+
 
 ## Info
 
