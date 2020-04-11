@@ -2,6 +2,12 @@
 	--bar-height: 120px;
 }
 
+body {
+	font-family:  JetBrains Mono;
+	font-weight:normal;
+	font-style:normal;
+	}
+
 /*Round corner cover image*/
 .card-image,
 .card-placeholder-wrapper,
@@ -340,7 +346,7 @@ Change text color in playlist
 
 #video-player .album-art__foreground {
 	flex-direction: row;
-	text-align: left;	
+	text-align: left;
 }
 
 #video-player .album-art__background {
