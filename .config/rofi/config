@@ -6,11 +6,11 @@
 
 ! State:                                'bg'        'fg'     'bgalt'      'hlbg'    'hlfg'
 
-rofi.color-normal:                   #100D0C,   #5E656F,  #100D0C,   #7BAAE8,  #100D0C,
-rofi.color-active:                   #100D0C,   #5E656F,  #100D0C,   #7BAAE8,  #100D0C,
+rofi.color-normal:                   #08090B,   #484E5B,  #08090B,   #7BAAE8,  #08090B,
+rofi.color-active:                   #08090B,   #484E5B,  #08090B,   #7BAAE8,  #08090B,
 
 ! State:                            'background'    'border'    'separator'
-rofi.color-window:                    #100D0C,     #100D0C,      #ebedf8,
+rofi.color-window:                    #08090B,     #08090B,      #ebedf8,
 
 
 
