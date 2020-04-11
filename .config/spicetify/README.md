@@ -1,3 +1,3 @@
 Spotify Theme
 
-![GitHub Logo](https://i.imgur.com/Z3wAG82.png)
+![GitHub Logo](https://i.imgur.com/2uI2X9I.png)
