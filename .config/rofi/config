@@ -51,4 +51,3 @@ rofi.parse-hosts:                    true
 rofi.matching:                       normal
 rofi.separator-style:                none
 rofi.scrollbar-width:                3
-
