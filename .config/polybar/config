@@ -26,7 +26,7 @@ tray-position = none
 tray-maxsize = 25
 tray-padding = 2
 tray-offset-y = 5
-tray-background = #08090B
+tray-background =
 
 border-left-size= 13
 border-border-size= 13
@@ -53,8 +53,8 @@ modules-right = date
 ;
 ;**********************************************************
 
-background = #08090B
-foreground = #484E5B
+background = #2E3440
+foreground = #C5C7CF
 line-size = 3
 line-color = #046C92
 
@@ -71,8 +71,8 @@ type = custom/text
 content = bspwm
 
 ; "content" has the same properties as "format-NAME"
-content-background = #7BAAE8
-content-foreground = #08090B
+content-background = #B6BD88
+content-foreground = #15171F
 content-padding = 2
 
 [module/bspwm]
@@ -81,7 +81,7 @@ type = internal/bspwm
 label-focused = %index%
 label-focused-background =
 label-focused-underline =
-label-focused-foreground = #8CD7AA
+label-focused-foreground = #D8A57D
 label-focused-padding = 2
 
 label-occupied = %index%
@@ -94,7 +94,7 @@ label-urgent-padding = 2
 
 label-empty = %index%
 label-empty-background =
-label-empty-foreground = #484E5B
+label-empty-foreground = #C5C7CF
 label-empty-padding = 2
 
 ; Separator in between workspaces
@@ -159,7 +159,7 @@ modules-right =  discord jgmenu rofi
 ;**********************************************************
 
 background = transparent
-foreground = #484E5B
+foreground = #828595
 line-size = 3
 line-color = #046C92
 
@@ -177,7 +177,7 @@ content = babyjesus@TheM4ze
 
 ; "content" has the same properties as "format-NAME"
 content-background =
-content-foreground = #484E5B
+content-foreground = #C5C7CF
 content-padding = 2
 
 ;--------------------------------------------- BOTTOM CENTER MODULES
@@ -188,12 +188,12 @@ exec = /home/babyjesus/.config/polybar/scripts/spotify1.sh
 interval = 1
 
 format = <label>
-format-foreground = #7BAAE8
+format-foreground = #828595
 format-background =
 format-padding = 2
 format-underline =
 format-prefix = "  "
-format-prefix-foreground = #7BAAE8
+format-prefix-foreground = #828595
 label = %output:0:150%
 
 ;--------------------------------------------- BOTTOM RIGHT MODULES
@@ -204,7 +204,7 @@ exec = echo "  discord"
 ;exec = echo " "
 interval = 1
 tail = true
-format-foreground = #484E5B
+format-foreground = #B6BD88
 format-background =
 format-prefix-foreground =
 format-underline =
@@ -217,7 +217,7 @@ type = custom/script
 interval = 120
 exec = echo "jgmenu"
 click-left = "jgmenu_run >/dev/null 2>&1 &"
-format-foreground = #484E5B
+format-foreground = #D8A57D
 format-background =
 format-underline =
 
@@ -226,5 +226,5 @@ type = custom/script
 exec = echo "rofi"
 click-left = rofi -modi run,drun,window -show drun
 format-padding = 1
-format-foreground = #484E5B
+format-foreground = #9D94C2
 format-underline =
