@@ -1,9 +1,9 @@
 html#main-window {
-	--color-bg: #100D0C;
+	--color-bg: #15171F;
 	--toolbar-bgcolor: var(--color-bg) !important;
 
 
-	
+
 
 	/* Easy way to tweak most params */
 	--gap-between-tabs                   : 10px;
@@ -24,9 +24,9 @@ html#main-window {
 	--urlbar-container-margin            : 12px;
 
 	/* Firefox variables */
-	
-	--lwt-toolbar-field-focus-color: #5E656F !important;
-	--lwt-toolbar-field-color: #5E656F !important;
+
+	--lwt-toolbar-field-focus-color: #828595 !important;
+	--lwt-toolbar-field-color: #828595 !important;
 	--lwt-toolbar-field-background-color: var(--color-bg) !important;
 
 	--arrowpanel-background: var(--color-bg) !important;
@@ -94,19 +94,19 @@ html#main-window {
 .urlbarView:not(.megabar) .urlbarView-row:not([type="tip"])[selected],
 .urlbarView.megabar .urlbarView-row:not([type="tip"])[selected] > .urlbarView-row-inner {
 	background: none !important;
-	color: #4A5C5C !important;
+	color: #828595 !important;
 	fill-opacity: 1;
 }
 
 /* The text that says 'Search with ...' */
 .urlbarView-action {
-	color: #5E656F !important;
+	color: #828595 !important;
 }
 
 /* Url bar suggestions' row that is being hovered over */
 .urlbarView-row:hover {
 	background-color: none !important;
-	color: #7BAAE8 !important;
+	color: #B6BD88 !important;
 }
 
 /* Text that says: This time, search with: */
@@ -169,7 +169,7 @@ input#urlbar-input {
 
 /* Regular browser tabs */
 .tabbrowser-tab {
-	background-color: #100D0C !important;
+	background-color: #15171F !important;
 	background-image: linear-gradient(to left, var(--color-tab-normal-start), var(--color-tab-normal-end)) !important;
 	border-radius: var(--tab-height) !important;
 	margin-inline-end: var(--gap-between-tabs) !important;
@@ -179,12 +179,12 @@ input#urlbar-input {
 
 .tabbrowser-tab:hover {
 	background-color: none !important;
-	color: #7BAAE8 !important;
+	color: #B6BD88 !important;
 }
 
 .tabbrowser-tab[selected="true"] {
 	background-color: none !important;
-	color: #7BAAE8 !important;
+	color: #B6BD88 !important;
 	font-weight: var(--tab-font-weight) !important;
 }
 
@@ -265,4 +265,3 @@ hbox#browser {
 .sidebar-splitter {
 	display: none !important;
 }
-
