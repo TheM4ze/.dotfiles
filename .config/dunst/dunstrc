@@ -1,62 +1,71 @@
+#based on https://github.com/georg3tom/dotfiles/blob/master/.config/dunst/dunstrc
 [global]
-monitor = 0
-follow = mouse
-geometry = "0x0-30+65"
-ax_icon_size = 40
-indicate_hidden = yes
-shrink = no
-transparency = 0
-notification_height = 0
-separator_height = 2
-padding = 28
-horizontal_padding = 24
-frame_width = 2
-frame_color = "#333B3E"
-separator_color = frame
-sort = yes
-idle_threshold = 120
-font = JetBrainsMedium Mono 9
-line_height = 0
-markup = full
-format = "<b>%s</b>\n%b"
-alignment = left
-show_age_threshold = -1
-word_wrap = yes
-ignore_newline = no
-stack_duplicates = true
-hide_duplicate_count = true
-show_indicators = yes
-icon_position = left
-icon_folders = /usr/share/icons/Paper/48x48@2x/status/:/usr/share/icons/Paper/48x48@2x/devices/:/usr/share/icons/Paper/48x48@2x/apps:/usr/share/icons/Paper/48x48@2x/categories:/usr/share/icons/Paper/48x48@2x/emblems
-sticky_history = yes
-history_length = 20
-always_run_script = true
-title = Dunst
-class = Dunst
-startup_notification = false
-force_xinerama = false
-
-[urgency_low]
-timeout = 5
-background = "#100D0C"
-foreground = "#5E656F"
-
-[urgency_normal]
-timeout = 8
-background = "#100D0C"
-foreground = "#5E656F"
-
-[urgency_critical]
-timeout = 0
-background = "#100D0C"
-foreground = "#5E656F"
-
-separator_color = "#87875F"
-separator_height = 2
+    monitor = 0
+    follow = mouse
+    geometry = "350x6-32+70"
+    indicate_hidden = yes
+    shrink = no
+    notification_height = 15
+    separator_height = 1
+    padding = 25
+    horizontal_padding = 20
+    frame_width = 2
+    frame_color = "#434C5E"
+    #separator_color = "#828595"
+    sort = yes
+    idle_threshold = 120
+    font = JetBrains Mono Medium 9
+    line_height = 0
+    markup = full
+    format = "<span><b>%s %p</b></span>\n%b"
+    alignment = left
+    show_age_threshold = 60
+    word_wrap = no
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = left
+    max_icon_size = 48
+    icon_path = /usr/share/icons/Paper/48x48/status/:/usr/share/icons/Paper/48x48/devices/:/usr/share/icons/Paper/48x48/apps/
+    # icon_path = /usr/share/icons/Papirus/48x48/status/:/usr/share/icons/Papirus/48x48/devices/:/usr/share/icons/Numix-Circle/48x48/apps/
+    # icon_path = /usr/share/icons/Adwaita/status/:/usr/share/icons/Adwaita/devices/:/usr/share/icons/Numix-Circle/48/apps/
+    sticky_history = yes
+    history_length = 20
+    always_run_script = true
+    startup_notification = false
+    verbosity = mesg
+    corner_radius = 0
+    force_xinerama = false
+    mouse_left_click = do_action
+    mouse_middle_click = close_all
+    mouse_right_click = close_current
+    class=Dunst
+    title=Dunst
 
 
 [shortcuts]
-close = ctrl+space
-close_all = ctrl+shift+space
-history = ctrl+grave
-context = ctrl+shift+period
+    history = ctrl+grave
+    close = ctrl+space
+    close_all = ctrl+shift+space
+
+
+[urgency_low]
+    # IMPORTANT: colors have to be defined in quotation marks.
+    # Otherwise the '#' and following  would be interpreted as a comment.
+    background="#15171F"
+    foreground="#828595"
+    timeout = 6
+
+
+[urgency_normal]
+    background="#15171F" #3a3a3a
+    foreground="#828595"
+    timeout = 9
+
+
+[urgency_critical]
+    background="#FF5C57"
+    foreground="#828595"
+    timeout = 0
