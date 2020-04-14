@@ -14,7 +14,7 @@ This repo contains config/scripts for my bspwm desktop
 	- polybar [status bar]
 	- sxhkd [general key binder]
 	- thunar [file manager]
-	- VSCodium & Doom-Emacs [editor]
+	- atom & Doom-Emacs [editor]
 	- rofi
 	- jgmenu
 	- other stuff like blurwal,wpgtk,pywal and more, etc.
@@ -23,6 +23,7 @@ Screenshot
 ----------
 
 ![GitHub Logo](https://i.imgur.com/BhHcDCa.png)
+![GitHub Logo](https://i.imgur.com/caciPoU.png)
 ![GitHub Logo](https://i.imgur.com/QtJ9gqj.png)
 ![GitHub Logo](https://i.imgur.com/9Bv9Li9.png)
 
