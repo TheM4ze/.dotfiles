@@ -20,4 +20,4 @@ blurwal -m 1 &
 sxhkd &
 exec bspwm
 
-borders &
+#borders &
