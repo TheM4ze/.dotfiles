@@ -22,7 +22,7 @@ alias dm="sudo dmidecode -t 2"
 alias st="sudo thunar"
 
 #new fonts
-alias update fonts='sudo fc-cache -fv'
+alias fonts='sudo fc-cache -fv'
 
 #Delete [Important - use carefully]
 alias delete="sudo rm -rf "
