@@ -1,0 +1,49 @@
+ #!/bin/bash
+
+#===========
+# Autostart
+#===========
+$HOME/.config/rofi/config
+$HOME/.config/dunst/dunstrc
+
+#picom
+$HOME/picom.conf
+
+# Set decoration geometry
+berryc border_width       5
+berryc inner_border_width 3
+berryc title_height       30
+berryc edge_gap           10 10 10 10
+
+
+# Set decoration colors
+berryc focus_color         2E3C43
+berryc unfocus_color       2E3C43
+berryc inner_focus_color   3C4D54
+berryc inner_unfocus_color 434C5E
+berryc text_focus_color    eeeeee
+berryc text_unfocus_color  eeeeee
+
+# Other options
+berryc smart_place "true"
+berryc draw_text   "true"
+berryc edge_lock   "true"
+berryc set_font    "Dina-9"
+
+sxhkd -c $HOME/.config/berry/sxhkdrc &
+
+#blurwal
+blurwal --m 1
+
+#feh wallpaper
+$HOME/.fehbg
+
+firefox
+dunst
+
+xsetroot -cursor_name left_ptr
+pamac-tray
+xfce4-power-manager
+numlockx on
+/usr/lib/xfce4/notifyd/xfce4-notifyd
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

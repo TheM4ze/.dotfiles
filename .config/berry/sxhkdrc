@@ -1,0 +1,120 @@
+#
+# BERRYWM KEYBINDINGS
+#
+
+
+#------------------------------------HOW TO EXIT, LOGOUT, SUSPEND
+
+
+super + x
+  oblogout
+
+ctrl + Escape
+	berryc quit
+
+
+#------------------------------------IMPORTANT
+
+
+#reload sxhkd:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#kill
+super + q
+	berryc window_close
+
+super + shift + k
+  xkill
+
+#Reload bspwm
+ super + shift + r
+  	berryc restart
+
+
+#------------------------------------APPLICATIONS
+
+
+super + Return
+  konsole
+
+super + f
+	firefox
+
+super + a
+	atom
+
+super + t
+ thunar
+
+super + s
+ spotify
+
+super + r
+ rofi -show drun
+
+super + m
+  jgmenu
+
+super + g
+ gpick
+
+
+#------------------------------------SYSTEM APPLICATIONS
+
+
+ctrl + alt + a
+    xfce4-appfinder
+
+ctrl + alt + m
+     xfce4-settings-manager
+
+ctrl + alt + p
+    pamac-manager
+
+
+#------------------------------------APPLICATION LAUNCHER
+
+
+super + shift + d
+  dmenu_run -i -nb '#191919' -nf '#78aae8' -sb '#78aae8' -sf '#191919' -fn 'JetBrains Mono:bold:pixelsize=12'
+
+
+#------------------------------------BERRY HOTKEYS
+
+
+super + {h, j, k, l}
+    berryc window_move {-50 0, 0 50, 0 -50, 50 0}
+
+super +  {Left,Down,Up,Right}
+    berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
+
+super + {1-9}
+    berryc switch_workspace {0-9}
+
+super + shift + {1-9}
+    berryc send_to_workspace {0-9}
+
+super + shift + m
+    berryc window_monocle
+
+super + space
+    berryc fullscreen
+
+super +  p
+    berryc snap_right
+
+super + o
+    berryc snap_left
+
+super + n
+    berryc toggle_decorations
+
+super + Tab
+    berryc cycle_focus
+
+super + c
+    berryc window_center
+
+~button1
+    berryc pointer_focus
