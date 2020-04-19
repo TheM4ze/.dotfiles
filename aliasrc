@@ -11,27 +11,37 @@ alias mp="makepkg -si "
 alias g="git "
 alias ga="git add "
 alias gc="git clone "
-alias gr="git remote add origin https://github.com/TheM4ze/.dotfiles"
-alias gp="git push -u origin master"
+alias gr="git remote add origin "
+alias gp="git push -u origin master "
 
-#hardware info --short
+#hardware info
 alias hw="hwinfo --short"
+alias dm="sudo dmidecode -t 2"
 
 #Thunar
 alias st="sudo thunar"
 
+#new fonts
+alias update fonts='sudo fc-cache -fv'
+
+#Delete [Important - use carefully]
+alias delete="sudo rm -rf "
+
 #list
-alias ls='ls --color=auto'
+alias ls='ls --color'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls'
 alias l.="ls -A | egrep '^\.'"
 
 #use all cores
-alias uac="sh ~/.bin/main/000*"
+alias 000="sh ~/.bin/main/000*"
 
 #gpg
 #verify signature for isos
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 #receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+
+#download specific repo links [not the whole repo]
+alias gitdir="python -m gitdir "

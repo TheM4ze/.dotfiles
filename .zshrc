@@ -4,6 +4,9 @@
 # Optionally, if you set this to "random", it'll load a random theme each time
 ZSH_THEME="spaceship"
 
+# Enable colors and change prompt:
+autoload -U colors && colors	# Load colors
+
 # Configuration for ZSH_THEME="spaceship"
 SPACESHIP_PROMPT_ADD_NEWLINE="true"
 SPACESHIP_CHAR_SYMBOL=" ↳ "
@@ -46,20 +49,31 @@ source ~ / .bash_profile
 
 # Plugin list in ~/.oh-my-zsh/plugins
 plugins=(
-    sudo
     zsh-syntax-highlighting
     zsh-autosuggestions
     adb
     zsh_reload
+    sudo
 )
 
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
+export PATH="${PATH}:${HOME}/.local/bin/"
 
+
+#unset GREP_OPTIONS
+#test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || \
+#    eval "$(dircolors -b)"
+
+
+#!/bin/sh
+#feh --no-fehbg
 
 #'/home/babyjesus/.bin/terminal/colors'
 
 # Load zsh-syntax-highlighting; should be last.
+
+source /home/babyjesus/.oh-my-zsh/plugins/sudo/sudo.plugin.zsh
 source /home/babyjesus/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
