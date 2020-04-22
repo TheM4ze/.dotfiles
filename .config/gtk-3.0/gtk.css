@@ -4,7 +4,7 @@ vte-terminal {
     padding: 22px 22px 22px 22px;
 }
 menuitem:hover {
-	background-color: #100D0C;
+	background-color: #080D10;
 }
 
 
@@ -31,12 +31,12 @@ menuitem:hover {
 }
 .thunar * button {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 1200ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: #100D0C;
+  background-color: #080D10;
   background-image: radial-gradient(circle farthest-corner at center, transparent 10%, transparent 0%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1000% 1000%;
-  color: #5E656F;
+  color: #828595;
 }
 
 .thunar * button:disabled {
@@ -48,7 +48,7 @@ menuitem:hover {
   animation: ripple_effect 225ms cubic-bezier(0, 0, 0.2, 1) forwards;
   background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 10%, transparent 0%);
   background-size: 0% 0%;
-  color: #5E656F;
+  color: #828595;
 }
 
 .thunar * button image,
@@ -70,35 +70,35 @@ menuitem:hover {
 }
 
 .thunar * scrollbar {
-	background-color: #100D0C;
+	background-color: #080D10;
 }
 
 .thunar * treeview {
-	background-color: #100D0C;
-	color: #5E656F;
+	background-color: #080D10;
+	color: #828595;
 }
 
 .thunar * .view:selected {
 	background-color: rgba(93, 101, 70, 100);
-	color: #98B595;
+	color: #78AAE8;
 }
 
 .thunar * .rubberband  {
-	border: 1px solid #100D0C;
+	border: 1px solid #080D10;
 	background-color: rgba(115, 127, 127, 0.3);
 }
 
 .thunar * .view:selected {
 	background-color: transparent;
-	background-image: image(#100D0C);
+	background-image: image(#080D10);
 }
 
 .thuanr * .view:hover {
-	background-image: image(#5E656F);
+	background-image: image(#828595);
 }
 
 .thunar * .path-bar-button:checked {
-	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5E656F 100%, transparent 0%) 0 0 2/0 0 2px;
+	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #828595 100%, transparent 0%) 0 0 2/0 0 2px;
 }
 
 notebook-header {
@@ -123,4 +123,3 @@ margin-left: 0px;
 .thunar * paned {
 	margin-top: 40px;
 }
-

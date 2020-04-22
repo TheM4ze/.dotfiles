@@ -27,7 +27,7 @@ rofi.line-padding:                   2
 rofi.opacity: 200
 
 rofi.line-margin:  10
-rofi.font: JetBrains Mono bold 10
+rofi.font: JetBrains Mono Medium 13
 rofi.bw:  0
 rofi.case-sensitive:   false
 rofi.terminal: 	konsole

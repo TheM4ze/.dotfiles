@@ -1,5 +1,5 @@
 html#main-window {
-	--color-bg: #15171F;
+	--color-bg: #20292D;
 	--toolbar-bgcolor: var(--color-bg) !important;
 
 
@@ -14,7 +14,7 @@ html#main-window {
 	--tab-height                         : 40px;
 	--tabs-container-height              : 135px;
 	--tab-text-font                      : "System-ui", sans-serif;
-	--tab-text-font-size                 : 10pt;
+	--tab-text-font-size                 : 14pt;
 	--margin-before-tab-list             : 16px;
 	--margin-after-tab-list              : -17px;
 	--urlbar-text-font                   : "mononoki Nerd Font", sans-serif;
@@ -169,7 +169,7 @@ input#urlbar-input {
 
 /* Regular browser tabs */
 .tabbrowser-tab {
-	background-color: #15171F !important;
+	background-color: #20292D !important;
 	background-image: linear-gradient(to left, var(--color-tab-normal-start), var(--color-tab-normal-end)) !important;
 	border-radius: var(--tab-height) !important;
 	margin-inline-end: var(--gap-between-tabs) !important;

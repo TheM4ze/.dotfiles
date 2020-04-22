@@ -27,13 +27,15 @@ super + q
 super + shift + k
   xkill
 
-#Reload bspwm
- super + shift + r
-  	berryc restart
+
+super + shift + r
+  ~/.config/berry/autostart restart
 
 
 #------------------------------------APPLICATIONS
 
+alt + s
+  st
 
 super + Return
   konsole
@@ -78,6 +80,16 @@ ctrl + alt + p
 
 super + shift + d
   dmenu_run -i -nb '#191919' -nf '#78aae8' -sb '#78aae8' -sf '#191919' -fn 'JetBrains Mono:bold:pixelsize=12'
+
+
+#------------------------------------SCREENSHOTS
+
+
+Print
+  scrot 'babyjesus@TheM4ze-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+
+ctrl + Print
+    xfce4-screenshooter
 
 
 #------------------------------------BERRY HOTKEYS

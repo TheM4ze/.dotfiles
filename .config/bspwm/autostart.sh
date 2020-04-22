@@ -10,13 +10,14 @@ function run {
 #autostart
 /home/babyjesus/.config/polybar/launch.sh
 xrdb ~/.Xresources
-~/.config/rofi/askpass.rasi &
+~/.config/rofi/config &
+~/.config/dunst/dunstrc &
 
 #sxhkd
 run sxhkd -c ~/.config/sxhkd/sxhkdrc &
 
 #picom
-picom --config $HOME/.config/picom.conf &
+picom --config $HOME/picom.conf &
 
 #blurwal
 blurwal --m 1 &
@@ -25,7 +26,7 @@ blurwal --m 1 &
 #/home/babyjesus/.config/bspwm/borders &
 
 #feh wallpaper
-feh --no-fehbg --bg-fill
+feh --no-fehbg
 
 xsetroot -cursor_name left_ptr &
 run pamac-tray &

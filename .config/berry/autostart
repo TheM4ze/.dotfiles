@@ -5,22 +5,23 @@
 #===========
 $HOME/.config/rofi/config
 $HOME/.config/dunst/dunstrc
+$HOME/.config/polybar/launch.sh
 
 #picom
-$HOME/picom.conf
+#$HOME/picom.conf
 
 # Set decoration geometry
 berryc border_width       5
 berryc inner_border_width 3
 berryc title_height       30
-berryc edge_gap           10 10 10 10
+berryc edge_gap           55 10 10 10
 
 
 # Set decoration colors
-berryc focus_color         2E3C43
-berryc unfocus_color       2E3C43
-berryc inner_focus_color   3C4D54
-berryc inner_unfocus_color 434C5E
+berryc focus_color         20292D
+berryc unfocus_color       20292D
+berryc inner_focus_color   607A86
+berryc inner_unfocus_color 2C3539
 berryc text_focus_color    eeeeee
 berryc text_unfocus_color  eeeeee
 
@@ -28,7 +29,7 @@ berryc text_unfocus_color  eeeeee
 berryc smart_place "true"
 berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "Dina-9"
+berryc set_font    "Dina-10"
 
 sxhkd -c $HOME/.config/berry/sxhkdrc &
 
@@ -36,14 +37,14 @@ sxhkd -c $HOME/.config/berry/sxhkdrc &
 blurwal --m 1
 
 #feh wallpaper
-$HOME/.fehbg
+#$HOME/.fehbg
 
 firefox
 dunst
 
 xsetroot -cursor_name left_ptr
 pamac-tray
-xfce4-power-manager
+/home/babyjesus/.config/autostart/Power Manager
 numlockx on
 /usr/lib/xfce4/notifyd/xfce4-notifyd
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

@@ -5,9 +5,9 @@
 _() { bspc config "$@"; }
 
 # get values from bspwm config
-outer='0x100D0C'
-inner1='0x333B33'
-inner2='0x100D0C'
+outer='15171F'
+inner1='0x434C5E'
+inner2='15171F'
 
 draw() {
     case $1 in

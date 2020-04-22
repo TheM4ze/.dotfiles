@@ -36,7 +36,7 @@ SPACESHIP_JOBS_SHOW="true"
 export ZSH="/home/babyjesus/.oh-my-zsh"
 
 
-# Disable weekly auto-update checks.
+# Disable bi-weekly auto-update checks.
 DISABLE_AUTO_UPDATE="true"
 
 # User configuration

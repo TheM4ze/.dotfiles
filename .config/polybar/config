@@ -14,36 +14,36 @@
 
 [bar/bspwm]
 
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:DP-0}
 width = 100%
-height = 30
-radius = 0.0
+height = 35
+radius =
 fixed-center = true
 bottom = false
 enable-ipc = true
 
 tray-position = none
-tray-maxsize = 25
-tray-padding = 2
-tray-offset-y = 5
+tray-maxsize = 0
+tray-padding = 25
+tray-offset-y = 0
 tray-background =
 
-border-left-size= 13
-border-border-size= 13
-border-size = 15
-border-bottom-size = 0
-border-top-size= 10
+border-left-size = 3
+border-color= #20292D
+border-size = 3
+border-bottom-size = 7
+border-top-size = 7
 
-padding-left = 0
-padding-right = 0
+padding-left =
+padding-right = 2
 
-;module-margin-left = 0
+module-margin-left = 2
 ;module-margin-right = 0
 
-font-0 = JetBrains Mono Medium:weight=medium:size=9:antialiasing=true;
-font-1 = JetBrains Mono:size=9;
+font-0 = Dina:weight=medium:size=15:antialiasing=true;
+font-1 = Dina:size=15;
 
-modules-left = my-text-label bspwm
+modules-left = my-text-label ewmh
 modules-center =
 modules-right = date
 
@@ -53,10 +53,10 @@ modules-right = date
 ;
 ;**********************************************************
 
-background = #2E3440
+background = #20292D
 foreground = #C5C7CF
 line-size = 3
-line-color = #046C92
+line-color =
 
 ;**********************************************************
 ;
@@ -68,37 +68,59 @@ line-color = #046C92
 
 [module/my-text-label]
 type = custom/text
-content = bspwm
+content = berrywm
 
 ; "content" has the same properties as "format-NAME"
-content-background = #B6BD88
-content-foreground = #15171F
+content-background =
+content-foreground = #C5C7CF
 content-padding = 2
 
-[module/bspwm]
-type = internal/bspwm
 
-label-focused = %index%
-label-focused-background =
-label-focused-underline =
-label-focused-foreground = #D8A57D
-label-focused-padding = 2
+[module/ewmh]
+type = internal/xworkspaces
 
-label-occupied = %index%
-label-occupied-padding = 2
-label-occupied-foreground =
+pin-workspaces = false
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
 
-label-urgent = %index%!
-label-urgent-background =
-label-urgent-padding = 2
+icon-0 = 1;
+icon-1 = 2;
+icon-2 = 3;
+icon-3 = 4;
+icon-4 = 5;
+icon-5 = 6;
+icon-6 = 7;
+icon-7 = 8;
+icon-8 = 9;
+icon-9 = 10;
+#icon-default = " "
+format = <label-state>
+label-monitor = %name%
 
-label-empty = %index%
-label-empty-background =
+label-active = %name%
+label-active-foreground = #C5C7CF
+label-active-background = #2C3539
+label-active-underline= #FFCB6B
+label-active-padding = 1
+
+label-occupied = %name%
+label-occupied-background = #3C4D54
+label-occupied-padding = 1
+
+label-urgent = %name%
+label-urgent-foreground =
+label-urgent-background = #3C4D54
+label-urgent-underline =
+label-urgent-padding = 1
+
+label-empty = %name%
 label-empty-foreground = #C5C7CF
-label-empty-padding = 2
+label-empty-padding = 1
+label-empty-background = #343D41
+format-foreground = #C5C7CF
+format-background = #3C4D54
 
-; Separator in between workspaces
-label-separator =
 
 ;--------------------------------------------- TOP RIGHT MODULES
 
@@ -108,7 +130,7 @@ date =   time = %A, %B %d  - %I:%M %p |
 interval = 60
 time = %A, %B %d  - %I:%M %p
 label = %time%
-label-padding = 2
+label-padding = 0
 
 
 
@@ -122,12 +144,12 @@ label-padding = 2
 
 [bar/bottom]
 
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR}
 monitor-fallback = HDMI1
-monitor-strict = false
-override-redirect = false
-;width = 93.25%
-height = 37
+fixed-center = true
+enable-ipc = true
+width = 100%
+height = 30
 ;offset-x =
 ;offset-y =
 
@@ -135,18 +157,18 @@ bottom = true
 
 border-left-size= 0
 border-border-size= 0
-border-size = 13
-border-bottom-size = 1
+border-size =
+border-bottom-size =
 border-top-size= 0
 border-color =
 
 padding-left = 0
-padding-right = 0
+padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = JetBrains Mono-medium:weight=medium:size=9;
-font-1 = JetBrains Mono:size=9;
+font-0 = JetBrains Mono Medium:weight=medium:size=11:antialiasing=true;
+font-1 = JetBrains Mono:size=11;
 
 modules-left =  text
 modules-center = spotify1
@@ -158,7 +180,7 @@ modules-right =  discord jgmenu rofi
 ;
 ;**********************************************************
 
-background = transparent
+background = #263238
 foreground = #828595
 line-size = 3
 line-color = #046C92

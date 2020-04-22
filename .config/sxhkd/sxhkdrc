@@ -24,12 +24,11 @@ super + shift + k
 
 #------------------------------------APPLICATIONS
 
-
 alt + s
    bspc rule -a \* -o state=floating && st
 
 super + Return
-		bspc rule -a \* -o state=floating && konsole
+    bspc rule -a \* -o state=floating && konsole
 
 super + f
 	firefox
@@ -73,7 +72,7 @@ ctrl + alt + p
 
 
 super + shift + d
-	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'JetBrains Mono:bold:pixelsize=12'
+	dmenu_run -i -nb '#191919' -nf '#78aae8' -sb '#78aae8' -sf '#191919' -fn 'JetBrains Mono:bold:pixelsize=12'
 
 
 #------------------------------------HOW TO EXIT, LOGOUT, SUSPEND

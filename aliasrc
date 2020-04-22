@@ -1,7 +1,13 @@
+#!/bin/sh
+#
+# ~/aliasrc
+
+
 #Pacman
-alias update='sudo pacman -Syyu'
+alias update="sudo pacman -Syyu"
 alias install="sudo pacman -S"
 alias rns="sudo pacman -Rns $(pacman -Qtdq)"
+alias rsc="sudo pacman -Rsc"
 alias q="exit"
 
 #MakePKG
@@ -22,7 +28,7 @@ alias dm="sudo dmidecode -t 2"
 alias st="sudo thunar"
 
 #new fonts
-alias update fonts='sudo fc-cache -fv'
+alias fonts='sudo fc-cache -fv'
 
 #Delete [Important - use carefully]
 alias delete="sudo rm -rf "
