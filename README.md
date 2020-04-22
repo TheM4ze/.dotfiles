@@ -20,7 +20,7 @@ This repo contains config/scripts for my bspwm desktop
 	- other stuff like blurwal,wpgtk,pywal and more, etc.
 
 Screenshot
-----------
+---------
 
 ![GitHub Logo](https://i.imgur.com/OW1yEW6.png)
 
