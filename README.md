@@ -22,6 +22,6 @@ This repo contains config/scripts for my bspwm desktop
 Screenshot
 ---------
 
-![GitHub Logo](https://i.imgur.com/OW1yEW6.png)
+![GitHub Logo](https://i.imgur.com/ScpiOl8.png)
 
 
