@@ -54,7 +54,7 @@ modules-right = date
 ;**********************************************************
 
 background = #20292D
-foreground = #C5C7CF
+foreground = #EEFFFF
 line-size = 3
 line-color =
 
@@ -72,7 +72,7 @@ content = berrywm
 
 ; "content" has the same properties as "format-NAME"
 content-background =
-content-foreground = #C5C7CF
+content-foreground = #EEFFFF
 content-padding = 2
 
 
@@ -99,7 +99,7 @@ format = <label-state>
 label-monitor = %name%
 
 label-active = %name%
-label-active-foreground = #C5C7CF
+label-active-foreground = #EEFFFF
 label-active-background = #2C3539
 label-active-underline= #FFCB6B
 label-active-padding = 1
@@ -115,10 +115,10 @@ label-urgent-underline =
 label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-foreground = #C5C7CF
+label-empty-foreground = #EEFFFF
 label-empty-padding = 1
 label-empty-background = #343D41
-format-foreground = #C5C7CF
+format-foreground = #EEFFFF
 format-background = #3C4D54
 
 
