@@ -6,11 +6,11 @@
 
 ! State:                                'bg'        'fg'     'bgalt'      'hlbg'    'hlfg'
 
-rofi.color-normal:                   #15171F,   #828595,  #15171F,   #B6BD88,  #15171F,
-rofi.color-active:                   #15171F,   #828595,  #15171F,   #B6BD88,  #15171F,
+rofi.color-normal:                     #20292D,    #828595,   #20292D,   #607A86,   #20292D,
+rofi.color-active:                     #20292D,    #828595,   #20292D,   #607A86,   #20292D,
 
 ! State:                            'background'    'border'    'separator'
-rofi.color-window:                    #15171F,     #15171F,      #ebedf8,
+rofi.color-window:                    #20292D,       #20292D,     #ebedf8,
 
 
 
@@ -18,12 +18,12 @@ rofi.color-window:                    #15171F,     #15171F,      #ebedf8,
 ==================  SETTINGS  ==================
 
 rofi.modi:                           window,run,drun
-rofi.width:                          50%
-rofi.height:                         90%
-rofi.lines:                          10
+rofi.width:                          40%
+rofi.height:                         100%
+rofi.lines:                          12
 rofi.columns:                        2
 rofi.padding:                        40
-rofi.line-padding:                   2
+rofi.line-padding:                   3
 rofi.opacity: 200
 
 rofi.line-margin:  10
@@ -37,7 +37,6 @@ rofi.separator-style:  none
 rofi.auto-select:   true
 rofi.hide-scrollbar:  true
 rofi.fake-transparency:  true
-rofi.oppacity: 50
 rofi.fuzzy:  true
 rofi.scroll-method:  1
 rofi.window-format:  {t}
