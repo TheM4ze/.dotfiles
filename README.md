@@ -5,7 +5,7 @@
 Introduction
 ------------
 
-This repo contains config/scripts for my bspwm desktop
+This repo contains config/scripts for my berry desktop setup
 
 
 	- oh-my-zsh [shell]
