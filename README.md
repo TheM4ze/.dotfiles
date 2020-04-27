@@ -10,14 +10,14 @@ This repo contains config/scripts for my bspwm desktop
 
 	- oh-my-zsh [shell]
 	- Spaceship & Starship [oh-my-zsh themes]
-	- bspwm [window manager]
+	- berry [window manager]
 	- polybar [status bar]
 	- sxhkd [general key binder]
 	- thunar [file manager]
 	- atom & Doom-Emacs [editor]
 	- rofi
 	- jgmenu
-	- other stuff like blurwal,wpgtk,pywal and more, etc.
+	- other stuff like blurwal,wpgtk,sxiv and more, etc.
 
 Screenshot
 ---------
