@@ -1,0 +1,32 @@
+;--------------------------------------------- BOTTOM RIGHT MODULES
+
+[module/discord]
+type = custom/script
+exec = echo "  discord"
+;exec = echo " "
+interval = 1
+tail = true
+format-foreground = #B6BD88
+format-background =
+format-prefix-foreground =
+format-underline =
+click-left = discord &
+click-right = killall Discord && killall Discord
+;format-prefix = ""
+
+[module/jgmenu]
+type = custom/script
+interval = 120
+exec = echo "jgmenu"
+click-left = "jgmenu_run >/dev/null 2>&1 &"
+format-foreground = #D8A57D
+format-background =
+format-underline =
+
+[module/rofi]
+type = custom/script
+exec = echo "rofi"
+click-left = rofi -modi run,drun,window -show drun
+format-padding = 1
+format-foreground = #9D94C2
+format-underline =

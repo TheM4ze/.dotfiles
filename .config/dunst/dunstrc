@@ -10,11 +10,11 @@
     padding = 25
     horizontal_padding = 20
     frame_width = 2
-    frame_color = "#3C4D54"
-    #separator_color = "#828595"
+    frame_color = "#607A86"
+    #separator_color = "#EEFFFF"
     sort = yes
     idle_threshold = 120
-    font = JetBrains Mono Medium 11
+    font = Fantasque Sans Mono 10
     line_height = 0
     markup = full
     format = "<span><b>%s %p</b></span>\n%b"
@@ -54,18 +54,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
-    background="#263238"
-    foreground="#828595"
+    background="#20292D"
+    foreground="#EEFFFF"
     timeout = 6
 
 
 [urgency_normal]
-    background="#263238" #3a3a3a
-    foreground="#828595"
+    background="#20292D" #3a3a3a
+    foreground="#EEFFFF"
     timeout = 9
 
 
 [urgency_critical]
     background="#FF5C57"
-    foreground="#828595"
+    foreground="#EEFFFF"
     timeout = 0

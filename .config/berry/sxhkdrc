@@ -27,9 +27,27 @@ super + q
 super + shift + k
   xkill
 
-
 super + shift + r
   ~/.config/berry/autostart restart
+
+#hide polybar
+super + v
+ berryc top_gap 0 & polybar-msg cmd hide
+
+#show polybar
+super + b
+ berryc top_gap 15 & polybar-msg cmd show
+
+
+# start compositor
+super + c
+ picom --conf $HOME/picom.conf
+
+# kill compositor
+super + shift + c
+ killall picom
+
+
 
 
 #------------------------------------APPLICATIONS
@@ -122,11 +140,15 @@ super + o
 super + n
     berryc toggle_decorations
 
+super + period
+	berryc toggle_above
+
 super + Tab
     berryc cycle_focus
 
 super + c
     berryc window_center
+
 
 ~button1
     berryc pointer_focus

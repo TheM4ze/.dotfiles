@@ -106,7 +106,7 @@ html#main-window {
 /* Url bar suggestions' row that is being hovered over */
 .urlbarView-row:hover {
 	background-color: none !important;
-	color: #B6BD88 !important;
+	color: #607A86 !important;
 }
 
 /* Text that says: This time, search with: */
@@ -179,12 +179,12 @@ input#urlbar-input {
 
 .tabbrowser-tab:hover {
 	background-color: none !important;
-	color: #B6BD88 !important;
+	color: #607A86 !important;
 }
 
 .tabbrowser-tab[selected="true"] {
 	background-color: none !important;
-	color: #B6BD88 !important;
+	color: #607A86 !important;
 	font-weight: var(--tab-font-weight) !important;
 }
 

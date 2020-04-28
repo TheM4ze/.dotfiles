@@ -26,7 +26,7 @@ blurwal --m 1 &
 #/home/babyjesus/.config/bspwm/borders &
 
 #feh wallpaper
-feh --no-fehbg
+feh --no-fehbg --bg-fill '/home/babyjesus/.config/wpg/wallpapers/scott-ogle.jpg'
 
 xsetroot -cursor_name left_ptr &
 run pamac-tray &

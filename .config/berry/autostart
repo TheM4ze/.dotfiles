@@ -1,14 +1,9 @@
- #!/bin/bash
+#!/bin/bash
 
-#===========
 # Autostart
-#===========
 $HOME/.config/rofi/config
-$HOME/.config/dunst/dunstrc
 $HOME/.config/polybar/launch.sh
-
-#picom
-#$HOME/picom.conf
+$HOME/.fehbg
 
 # Set decoration geometry
 berryc border_width       5
@@ -31,20 +26,19 @@ berryc draw_text   "true"
 berryc edge_lock   "true"
 berryc set_font    "Dina-10"
 
+# Workspace names
+berryc name_desktop 0 "1"
+berryc name_desktop 1 "2"
+berryc name_desktop 2 "3"
+berryc name_desktop 3 "4"
+berryc name_desktop 4 "5"
+berryc name_desktop 5 "6"
+berryc name_desktop 6 "7"
+berryc name_desktop 7 "8"
+berryc name_desktop 8 "9"
+berryc name_desktop 9 "10"
+
 sxhkd -c $HOME/.config/berry/sxhkdrc &
 
-#blurwal
-blurwal --m 1
-
-#feh wallpaper
-#$HOME/.fehbg
-
-firefox
-dunst
-
-xsetroot -cursor_name left_ptr
-pamac-tray
-/home/babyjesus/.config/autostart/Power Manager
-numlockx on
-/usr/lib/xfce4/notifyd/xfce4-notifyd
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+firefox &
+dunst &

@@ -36,6 +36,7 @@ SPACESHIP_JOBS_SHOW="true"
 export ZSH="/home/babyjesus/.oh-my-zsh"
 
 
+
 # Disable bi-weekly auto-update checks.
 DISABLE_AUTO_UPDATE="true"
 
@@ -79,3 +80,4 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #StartShip
 eval "$(starship init zsh)"
+source /home/babyjesus/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

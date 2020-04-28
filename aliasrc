@@ -27,8 +27,17 @@ alias dm="sudo dmidecode -t 2"
 #Thunar
 alias st="sudo thunar"
 
+#xprop
+alias xprop="~ > pkgfile xev"
+
 #new fonts
 alias fonts='sudo fc-cache -fv'
+
+#Nvidia-settings
+alias ns="sudo nvidia-settings"
+
+#chmod +x
+alias ch="sudo chmod +x "
 
 #Delete [Important - use carefully]
 alias delete="sudo rm -rf "
