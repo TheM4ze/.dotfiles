@@ -43,7 +43,7 @@ module-margin-left = 1
 ;font-0 = Dina:weight=medium:size=12:antialiasing=true;
 font-1 = Dina:size=15;
 
-font-0 = "Cherry:size=15;2"
+font-0 = "opti:size=16;2"
 ;font-0 = "Fantasque Sans Mono:pixelsize=12;2"
 font-2 = "Material Icons:size=13;4"
 ;font-2 = "Cherry:size=8;2"
