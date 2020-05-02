@@ -2,10 +2,15 @@
 	--bar-height: 50px;
 }
 
-body {
-	font-family:  JetBrains Mono Medium 14;
-	font-weight:normal;
-	font-style:normal;
+
+html {
+	font-family: "Karla"!important; /* Change font here */
+}
+
+h1 {
+	font-family: "Karla"!important; /* Change font here */
+	text-transform: uppercase!important;
+	font-weight: bold;
 	}
 
 /*Round corner cover image*/

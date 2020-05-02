@@ -1,5 +1,5 @@
 html#main-window {
-	--color-bg: #20292D;
+	--color-bg: #141417;
 	--toolbar-bgcolor: var(--color-bg) !important;
 
 
@@ -106,7 +106,7 @@ html#main-window {
 /* Url bar suggestions' row that is being hovered over */
 .urlbarView-row:hover {
 	background-color: none !important;
-	color: #607A86 !important;
+	color: #5F655A !important;
 }
 
 /* Text that says: This time, search with: */
@@ -169,7 +169,7 @@ input#urlbar-input {
 
 /* Regular browser tabs */
 .tabbrowser-tab {
-	background-color: #20292D !important;
+	background-color: #141417 !important;
 	background-image: linear-gradient(to left, var(--color-tab-normal-start), var(--color-tab-normal-end)) !important;
 	border-radius: var(--tab-height) !important;
 	margin-inline-end: var(--gap-between-tabs) !important;
@@ -179,12 +179,12 @@ input#urlbar-input {
 
 .tabbrowser-tab:hover {
 	background-color: none !important;
-	color: #607A86 !important;
+	color: #5F655A !important;
 }
 
 .tabbrowser-tab[selected="true"] {
 	background-color: none !important;
-	color: #607A86 !important;
+	color: #5F655A !important;
 	font-weight: var(--tab-font-weight) !important;
 }
 

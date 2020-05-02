@@ -62,6 +62,11 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 export PATH="${PATH}:${HOME}/.local/bin/"
 
 
+eval $(thefuck --alias)
+# You can use whatever you want as an alias, like for Mondays:
+eval $(thefuck --alias Fuck)
+
+
 #unset GREP_OPTIONS
 #test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || \
 #    eval "$(dircolors -b)"

@@ -57,7 +57,7 @@ menuitem:hover {
 	background-color: transparent;
 }
 .thunar * label {
-	color: #7BAAE8}
+	color: #376A65}
 
 .thunar * treeview,
 .thunar * scrollbar,
@@ -80,7 +80,7 @@ menuitem:hover {
 
 .thunar * .view:selected {
 	background-color: rgba(93, 101, 70, 100);
-	color: #78AAE8;
+	color: #376A65;
 }
 
 .thunar * .rubberband  {

@@ -1,0 +1,19 @@
+/* -- Gray -- */
+
+* {
+shade1: #000000;
+shade2: #050505;
+shade3: #101010;
+shade4: #20292D;
+shade5: #202020;
+shade6: #252525;
+shade7: #303030;
+shade8: #353535;
+    border:               			@shade2;
+    border-alt:               		@shade3;
+    background:                     @shade4;
+    background-alt:                 @shade5;
+    selected:               		@shade5;
+    foreground:                     #EEFFFF;
+    urgent:                         #DA4453;
+}

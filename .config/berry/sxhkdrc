@@ -38,7 +38,6 @@ super + v
 super + b
  berryc top_gap 15 & polybar-msg cmd show
 
-
 # start compositor
 super + c
  picom --conf $HOME/picom.conf
@@ -48,12 +47,8 @@ super + shift + c
  killall picom
 
 
-
-
 #------------------------------------APPLICATIONS
 
-alt + s
-  st
 
 super + Return
   konsole
@@ -67,11 +62,17 @@ super + a
 super + t
  thunar
 
+super + shift + l
+ /home/babyjesus/lotion/Lotion/Lotion
+
 super + s
  spotify
 
+super + shift + s
+  steam-runtime
+
 super + r
- rofi -show drun
+  /home/babyjesus/.config/rofi/launcher.sh
 
 super + m
   jgmenu
@@ -146,7 +147,7 @@ super + period
 super + Tab
     berryc cycle_focus
 
-super + c
+super + shift + space
     berryc window_center
 
 

@@ -9,7 +9,7 @@ terminal_exec        = xterm
 terminal_args        = -e
 #monitor             = 0
 
-menu_margin_x        = 12
+menu_margin_x        = 10
 menu_margin_y        = 60
 menu_width           = 200
 menu_padding_top     = 10
@@ -48,17 +48,17 @@ icon_size            = 24
 #arrow_string        = ▸
 4arrow_width         = 25
 
-color_menu_bg        = #20292D 100
+color_menu_bg        = #141417 100
 color_menu_fg        = #EEFFFF 100
-#color_menu_border   = #20292D 8
+#color_menu_border   = #141417 8
 
-color_norm_bg        = #20292D 0
+color_norm_bg        = #141417 0
 color_norm_fg        = #EEFFFF 100
 
-color_sel_bg         = #607A86 100
-color_sel_fg         = #20292D 100
-color_sel_border     = #20292D 8
+color_sel_bg         = #5F655A 100
+color_sel_fg         = #141417 100
+color_sel_border     = #141417 8
 
-color_sep_fg         = #607A86 40
+color_sep_fg         = #5F655A 40
 
 #csv_name_format     = %n (%g)

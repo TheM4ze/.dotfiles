@@ -29,7 +29,7 @@ tray-offset-y = 0
 tray-background =
 
 border-left-size = 3
-border-color= #20292D
+border-color= #141417
 border-size = 3
 border-bottom-size = 7
 border-top-size = 7
@@ -44,7 +44,6 @@ module-margin-left = 1
 font-1 = Dina:size=15;
 
 font-0 = "opti:size=16;2"
-;font-0 = "Fantasque Sans Mono:pixelsize=12;2"
 font-2 = "Material Icons:size=13;4"
 ;font-2 = "Cherry:size=8;2"
 font-3 = "Siji:size=8;2"
@@ -62,7 +61,7 @@ modules-right = volume date powermenu
 ;
 ;**********************************************************
 
-background = #20292D
+background = #141417
 foreground = #EEFFFF
 line-size = 3
 line-color =
@@ -109,24 +108,24 @@ label-monitor = %name%
 
 label-active = %name%
 label-active-foreground = #EEFFFF
-label-active-background = #2C3539
-label-active-underline= #FFCB6B
+label-active-background = #141417
+label-active-underline= #5F655A
 label-active-padding = 1
 
 label-occupied = %name%
-label-occupied-background = #3C4D54
+label-occupied-background = #141417
 label-occupied-padding = 1
 
 label-urgent = %name%
 label-urgent-foreground =
-label-urgent-background = #3C4D54
+label-urgent-background = #141417
 label-urgent-underline =
 label-urgent-padding = 1
 
 label-empty = %name%
 label-empty-foreground = #EEFFFF
 label-empty-padding = 1
-label-empty-background = #343D41
+label-empty-background = #1B2121
 format-foreground = #EEFFFF
 format-background = #3C4D54
 
@@ -146,20 +145,20 @@ label-monitor = %name%
 
 label-active = %icon% %name%
 label-active-foreground = #EEFFFF
-label-active-background = #343D41
-label-active-underline= #FFCB6B
+label-active-background = #2E2F31
+label-active-underline= #4E828A
 
 label-occupied = %name%
 label-occupied-underline =
 label-occupied-foreground = #EEFFFF
-label-occupied-background = #3C4D54
+label-occupied-background = #141417
 
 label-urgent = %icon%
 label-urgent-foreground = #EEFFFF
-label-urgent-background = #3C4D54
+label-urgent-background = #141417
 
 label-empty =
-label-empty-background = #3C4D54
+label-empty-background = #141417
 label-empty-foreground = #EEFFFF
 
 icon-default =
@@ -202,7 +201,7 @@ ramp-volume-4 = 
 ramp-volume-5 = 
 ramp-volume-6 = 
 
-;format-background = #343D41
+;format-background = #2E2F31
 
 
 [module/date]
@@ -221,8 +220,8 @@ label-foreground =  #EEFFFF
 type = custom/text
 content = 
 content-padding = 2
-content-background = #607A86
-content-foreground = #20292D
+content-background = #4E828A
+content-foreground = #141417
 click-left = $HOME/.config/polybar/scripts/sysmenu
 click-right = $HOME/.config/polybar/scripts/sysmenu
 
