@@ -25,7 +25,8 @@ alias hw="hwinfo --short"
 alias dm="sudo dmidecode -t 2"
 
 #Thunar
-alias st="sudo thunar"
+alias st="sudo thunar "
+alias sn="sudo nano "
 
 #xprop
 alias xprop="~ > pkgfile xev"
