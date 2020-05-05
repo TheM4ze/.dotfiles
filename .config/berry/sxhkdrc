@@ -18,7 +18,7 @@ ctrl + Escape
 
 #reload sxhkd:
 super + Escape
-	pkill -USR1 -x sxhkd
+ pkill -USR1 -x sxhkd
 
 #kill
 super + q
@@ -48,10 +48,11 @@ super + shift + c
 
 
 #------------------------------------APPLICATIONS
+#----------SUPER
 
 
 super + Return
-  konsole
+  alacritty
 
 super + f
 	firefox
@@ -62,23 +63,31 @@ super + a
 super + t
  thunar
 
-super + shift + l
- /home/babyjesus/lotion/Lotion/Lotion
-
 super + s
  spotify
 
-super + shift + s
-  steam-runtime
-
 super + r
-  /home/babyjesus/.config/rofi/launcher.sh
+  rofi -show drun
 
 super + m
   jgmenu
 
 super + g
  gpick
+
+
+#------------------------------------APPLICATIONS
+#----------Alt
+
+
+alt + l
+ /home/babyjesus/lotion/Lotion/Lotion
+
+alt + s
+ steam-runtime
+
+alt + m
+  mailspring
 
 
 #------------------------------------SYSTEM APPLICATIONS
@@ -89,9 +98,6 @@ ctrl + alt + a
 
 ctrl + alt + m
      xfce4-settings-manager
-
-ctrl + alt + p
-    pamac-manager
 
 
 #------------------------------------APPLICATION LAUNCHER
@@ -126,7 +132,7 @@ super + {1-9}
 super + shift + {1-9}
     berryc send_to_workspace {0-9}
 
-super + shift + m
+alt + m
     berryc window_monocle
 
 super + space
