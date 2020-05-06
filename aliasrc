@@ -37,6 +37,12 @@ alias fonts='sudo fc-cache -fv'
 #Nvidia-settings
 alias ns="sudo nvidia-settings"
 
+#list all packages
+alias lp="pacman -Qqe"
+alias lpn="pacman -Qqe | wc -l"
+alias lpt="pacman -Qqe > packages.txt"
+alias lpi="sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort packages.txt))"
+
 #chmod +x
 alias ch="sudo chmod +x "
 

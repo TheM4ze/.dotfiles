@@ -7,35 +7,8 @@ ZSH_THEME="spaceship"
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 
-# Configuration for ZSH_THEME="spaceship"
-SPACESHIP_PROMPT_ADD_NEWLINE="true"
-SPACESHIP_CHAR_SYMBOL=" ↳ "
-
-SPACESHIP_USER_SHOW="always"
-SPACESHIP_USER_PREFIX="✘ Ǿ ✘ "
-#SPACESHIP_USER_COLOR_ROOT="red"
-
-SPACESHIP_HOST_SHOW="always"
-SPACESHIP_HOST_SUFFIX=""
-SPACESHIP_HOST_PREFIX=""
-
-SPACESHIP_DIR_TRUNC="0"
-SPACESHIP_TIME_SHOW="true"
-
-SPACESHIP_GIT_SHOW="true"
-
-SPACESHIP_DOTNET_SHOW="true"
-
-SPACESHIP_EXEC_TIME_SHOW="true"
-SPACESHIP_EXEC_TIME_PREFIX="took"
-
-SPACESHIP_JOBS_SHOW="true"
-
-
 # Path to your oh-my-zsh installation.
 export ZSH="/home/babyjesus/.oh-my-zsh"
-
-
 
 # Disable bi-weekly auto-update checks.
 DISABLE_AUTO_UPDATE="true"
@@ -64,7 +37,7 @@ export PATH="${PATH}:${HOME}/.local/bin/"
 
 eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
-eval $(thefuck --alias Fuck)
+eval $(thefuck --alias f)
 
 
 #unset GREP_OPTIONS
@@ -72,17 +45,9 @@ eval $(thefuck --alias Fuck)
 #    eval "$(dircolors -b)"
 
 
-#!/bin/sh
-#feh --no-fehbg
-
-#'/home/babyjesus/.bin/terminal/colors'
-
-# Load zsh-syntax-highlighting; should be last.
-
-source /home/babyjesus/.oh-my-zsh/plugins/sudo/sudo.plugin.zsh
-source /home/babyjesus/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 #StartShip
 eval "$(starship init zsh)"
+
+source /home/babyjesus/.oh-my-zsh/plugins/sudo/sudo.plugin.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/babyjesus/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
