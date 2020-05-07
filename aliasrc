@@ -7,7 +7,7 @@
 alias update="sudo pacman -Syyu"
 alias install="sudo pacman -S"
 alias rns="sudo pacman -Rns $(pacman -Qtdq)"
-alias rsc="sudo pacman -Rsc"
+alias rsc="sudo pacman -Rsc"   #delete the whole package with system files
 alias q="exit"
 
 #MakePKG
@@ -25,7 +25,7 @@ alias hw="hwinfo --short"
 alias dm="sudo dmidecode -t 2"
 
 #Thunar
-alias st="sudo thunar "
+alias st="sudo thunar "   #thunar as root
 alias sn="sudo nano "
 
 #xprop
@@ -38,10 +38,10 @@ alias fonts='sudo fc-cache -fv'
 alias ns="sudo nvidia-settings"
 
 #list all packages
-alias lp="pacman -Qqe"
-alias lpn="pacman -Qqe | wc -l"
-alias lpt="pacman -Qqe > packages.txt"
-alias lpi="sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort packages.txt))"
+alias lp="pacman -Qqe"   #list all pacman packages
+alias lpn="pacman -Qqe | wc -l"   #list all pacman packages as number
+alias lpt="pacman -Qqe > packages.txt"   #make .txt file of all pacman packages
+alias lpi="sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort packages.txt))"   #install all pacman packages
 
 #chmod +x
 alias ch="sudo chmod +x "
