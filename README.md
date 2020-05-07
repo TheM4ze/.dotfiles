@@ -1,6 +1,3 @@
-                                         Welcome To My Dotfiles
-					 ----------------------
-
 
 
 Introduction
