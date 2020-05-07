@@ -4,6 +4,8 @@
 
 A healthy, bite-sized window manager written in C over the XLib library.
 
+https://github.com/JLErvin/berry
+
 
 
 Introduction
