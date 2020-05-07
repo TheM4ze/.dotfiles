@@ -2,7 +2,8 @@
     <h1>berry</h1><br>
 </div>
 
-A healthy, bite-sized window manager written in C over the XLib library.
+<div align='center'>
+	A healthy, bite-sized window manager written in C over the XLib library.
 
 https://github.com/JLErvin/berry
 
@@ -32,6 +33,6 @@ This repo contains config/scripts for my berry desktop setup
 Screenshot
 ---------
 
-![GitHub Logo](https://i.imgur.com/rJHShlO.png)
+![GitHub Logo](https://i.imgur.com/rJHShlO.png) </div>
 
 
