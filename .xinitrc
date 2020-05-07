@@ -4,19 +4,6 @@
 #
 # Executed by startx (run your window manager from here)
 
-if [ -d /etc/X11/xinit/xinitrc.d ]; then
-  for f in /etc/X11/xinit/xinitrc.d/*; do
-    [ -x "$f" ] && . "$f"
-  done
-  unset f
-fi
-
-if [systemd-detect-virt = "oracle"];
-	/usr/bin/VBoxClient-all
-fi
-
-QT_QPA_PLATFORMTHEME="qt5ct"
-
 sxhkd -c "$HOME"/.config/berry/sxhkdrc &
 exec berry -d -f 'Dina-9' > /tmp/log.txt 2>&1
 exec berry -c ~/.config/berry/berryrc
