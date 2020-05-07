@@ -5,27 +5,8 @@
 // Overrides: atom/status-bar
 
 .status-bar {
-  font-size: @font-size;
-  color: @text-color;
-  background-color: @tree-view-background-color;
-  transition: opacity 150ms ease-out;
+  font-size: 12px;
+  color: #748EAA;
   border-top: 1px solid @base-border-color;
-  z-index: 3; // Give a z-index to stop tree-view overflowing on top of it.
-  opacity: 0;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  .deprecation-number {
-    color: @bliss-pink;
-  }
-
-  .package-updates-status-view {
-    color: @bliss-cyan;
-
-    &:hover {
-      border-bottom-color: @bliss-cyan;
-    }
-  }
+  background-color:@tree-view-background-color;
 }

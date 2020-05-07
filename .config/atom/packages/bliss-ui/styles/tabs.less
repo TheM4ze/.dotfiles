@@ -4,7 +4,7 @@
 // Pane blur.
 atom-pane:not(.active) {
   .tab-bar .tab.active {
-    color: @text-color-subtle;
+    color: #82AAFF;
   }
 }
 
@@ -42,15 +42,15 @@ atom-pane:not(.active) {
 
             .icon {
                 &::before {
-                    font-size: 13px;
+                    font-size: 12px;
                 }
             }
         }
 
         &.active {
-            flex: 1;
-            font-weight: bold;
-            color: @oc-gray-2 !important;
+          color:  #67E9D8;
+          background-color: #141417;
+
 
             .title {
                 padding: 0;
@@ -77,19 +77,23 @@ atom-pane:not(.active) {
         }
         // Close Icon (the X) -------------------
 
+        &.active {
+          color:  #F07178;
+        }
+
         .close-icon {
-            opacity: 0;
+            opacity: 100;
             &::before {
                 text-align: center;
             }
 
             &:hover {
-                color: #4E828A;
+                color: #F07178;
             }
         }
 
         &.active .close-icon:hover {
-            color: #4E828A;
+            color: #F07178;
         }
         // Dragging -------------------
         // Styles get applied while dragging a tab
