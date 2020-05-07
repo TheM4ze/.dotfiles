@@ -15,10 +15,10 @@ alias mp="makepkg -si "
 
 #GitHub
 alias g="git "
-alias ga="git add "
-alias gc="git clone "
-alias gr="git remote add origin "
-alias gp="git push -u origin master "
+alias gadd="git add "
+alias gclone="git clone "
+alias gremote="git remote add origin "
+alias gpush="git push -u origin master "
 
 #hardware info
 alias hw="hwinfo --short"
