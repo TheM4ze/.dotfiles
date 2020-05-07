@@ -25,10 +25,10 @@ This repo contains config/scripts for my berry desktop setup
 	- thunar [file manager]
 	- Lotion [ Notion but for Linux ]
 	- MailSpring [ emails ]
-	- atom & [editor]
+	- atom & nvim [editor]
 	- rofi
 	- jgmenu
-	- other stuff like blurwal,wpgtk,sxiv and more, etc.
+	- other stuff like blurwal,wpgtk,sxiv and more, etc...
 
 Screenshot
 ---------
