@@ -45,7 +45,7 @@ eval $(thefuck --alias f)
 #    eval "$(dircolors -b)"
 
 
-#StartShip
+#StarShip
 eval "$(starship init zsh)"
 
 source /home/babyjesus/.oh-my-zsh/plugins/sudo/sudo.plugin.zsh
