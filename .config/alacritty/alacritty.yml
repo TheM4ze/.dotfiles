@@ -2,7 +2,7 @@
 window:
   dimensions:
     columns: 111
-    lines: 26
+    lines: 21
   padding:
     x: 15
     y: 15
@@ -58,9 +58,9 @@ colors:
     green:   '#7A8F68'
     yellow:  '#376A65'
     blue:    '#343D41'
-    magenta: '#d3869b'
+    magenta: '#82AAFF'
     cyan:    '#D8A57D'
-    white:   '#ebdbb2'
+    white:   '#82AAFF'
 
   selection:
     text: '0x141417'
