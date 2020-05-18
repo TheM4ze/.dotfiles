@@ -6,14 +6,6 @@
 
 ## Installation
 
-### Chrome
-
-- Get the latest release (zip) or clone this repo and extract it.
-- On chrome, open extensions from the tool menu or open it from [chrome://extensions](chrome://extensions).
-- Click on load unpacked, navigate to the directory where you cloned the repo and select it.
-
->NOTE: You can also install using the ```crx``` file provided in the release.
-
 ### Firefox
 
 Available on the Mozilla Add On Store.
