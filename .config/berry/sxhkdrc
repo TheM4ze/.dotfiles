@@ -18,7 +18,7 @@ ctrl + Escape
 
 #reload sxhkd:
 super + Escape
- pkill -USR1 -x sxhkd
+  pkill -USR1 -x sxhkd
 
 #kill
 super + q
@@ -32,19 +32,19 @@ super + shift + r
 
 #hide polybar
 super + v
- berryc top_gap 0 & polybar-msg cmd hide
+  berryc top_gap 0 & polybar-msg cmd hide
 
 #show polybar
 super + b
- berryc top_gap 15 & polybar-msg cmd show
+  berryc top_gap 15 & polybar-msg cmd show
 
 # start compositor
 super + c
- picom --conf $HOME/picom.conf
+  picom --conf $HOME/picom.conf
 
 # kill compositor
 super + shift + c
- killall picom
+  killall picom
 
 
 #------------------------------------APPLICATIONS
@@ -55,25 +55,25 @@ super + Return
   alacritty
 
 super + f
-	firefox
+  firefox
 
 super + a
-	atom
+  atom
 
 super + t
- thunar
+  thunar
 
 super + s
- spotify
+  spotify
 
 super + r
   rofi -show drun
 
 super + m
-  jgmenu
+  jgmenu_run
 
 super + g
- gpick
+  gpick
 
 
 #------------------------------------APPLICATIONS
@@ -81,23 +81,29 @@ super + g
 
 
 alt + l
- /home/babyjesus/lotion/Lotion/Lotion
+  /home/babyjesus/lotion/Lotion/Lotion
 
 alt + s
- steam-runtime
+  steam-runtime
 
 alt + m
   mailspring
+
+alt + p
+  pavucontrol
+
+alt + e
+  lutris lutris:rungameid/1
 
 
 #------------------------------------SYSTEM APPLICATIONS
 
 
 ctrl + alt + a
-    xfce4-appfinder
+  xfce4-appfinder
 
 ctrl + alt + m
-     xfce4-settings-manager
+  xfce4-settings-manager
 
 
 #------------------------------------APPLICATION LAUNCHER
@@ -114,48 +120,48 @@ Print
   scrot 'babyjesus@TheM4ze-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 
 ctrl + Print
-    xfce4-screenshooter
+  xfce4-screenshooter
 
 
 #------------------------------------BERRY HOTKEYS
 
 
 super + {h, j, k, l}
-    berryc window_move {-50 0, 0 50, 0 -50, 50 0}
+  berryc window_move {-50 0, 0 50, 0 -50, 50 0}
 
 super +  {Left,Down,Up,Right}
-    berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
+  berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
 
 super + {1-9}
-    berryc switch_workspace {0-9}
+  berryc switch_workspace {0-9}
 
 super + shift + {1-9}
-    berryc send_to_workspace {0-9}
+  berryc send_to_workspace {0-9}
 
-alt + m
-    berryc window_monocle
+super + shift + m
+  berryc window_monocle
 
 super + space
-    berryc fullscreen
+  berryc fullscreen
 
 super +  p
-    berryc snap_right
+  berryc snap_right
 
 super + o
-    berryc snap_left
+  berryc snap_left
 
 super + n
-    berryc toggle_decorations
+  berryc toggle_decorations
 
 super + period
 	berryc toggle_above
 
 super + Tab
-    berryc cycle_focus
+  berryc cycle_focus
 
 super + shift + space
-    berryc window_center
+  berryc window_center
 
 
 ~button1
-    berryc pointer_focus
+  berryc pointer_focus
