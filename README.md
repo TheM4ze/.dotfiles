@@ -34,6 +34,6 @@ Screenshot
 ---------
 
 ![GitHub Logo](https://i.imgur.com/P8iaFKl.png) </div>
-![GitHub Logo](https://i.imgur.com/VzlfkxW.png)
+![GitHub Logo](https://i.imgur.com/JqLMWhY.png)
 
 
