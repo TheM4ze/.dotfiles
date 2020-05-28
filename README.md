@@ -33,7 +33,7 @@ This repo contains config/scripts for my berry desktop setup
 Screenshot
 ---------
 
-![GitHub Logo](https://i.imgur.com/rJHShlO.png) </div>
+![GitHub Logo](https://i.imgur.com/P8iaFKl.png) </div>
 ![GitHub Logo](https://i.imgur.com/VzlfkxW.png)
 
 
