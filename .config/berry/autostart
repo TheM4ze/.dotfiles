@@ -13,10 +13,10 @@ berryc edge_gap           60 10 10 10
 
 
 # Set decoration colors
-berryc focus_color         141417
-berryc unfocus_color       141417
-berryc inner_focus_color   5F655A
-berryc inner_unfocus_color 2E2F31
+berryc focus_color         141B1F
+berryc unfocus_color       141B1F
+berryc inner_focus_color   8196A7
+berryc inner_unfocus_color 172028
 berryc text_focus_color    eeeeee
 berryc text_unfocus_color  eeeeee
 

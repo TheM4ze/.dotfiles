@@ -40,8 +40,8 @@ padding-right = 1
 module-margin-left = 1
 ;module-margin-right = 0
 
-font-0 = Dina:weight=medium:size=12:antialiasing=true;
-font-1 = Dina:size=15;
+font-0 = BlexMono Nerd Font Mono:weight=medium:size=10:antialiasing=true;
+font-1 = BlexMono Nerd Font Mono:size=15;
 
 ;font-0 = "opti:size=16;2"
 font-2 = "Material Icons:size=13;4"
@@ -61,7 +61,7 @@ modules-right = volume date powermenu
 ;
 ;**********************************************************
 
-background = #141417
+background = #141B1F
 foreground = #EEFFFF
 line-size = 3
 line-color =
@@ -80,7 +80,7 @@ content = berrywm
 
 ; "content" has the same properties as "format-NAME"
 content-background =
-content-foreground = #EEFFFF
+content-foreground = #8196A7
 content-padding = 2
 
 
@@ -109,11 +109,11 @@ label-monitor = %name%
 label-active = %name%
 label-active-foreground = #EEFFFF
 label-active-background = #141417
-label-active-underline= #5F655A
+label-active-underline= #FFF9A1
 label-active-padding = 1
 
 label-occupied = %name%
-label-occupied-background = #1B2121
+label-occupied-background = #222325
 label-occupied-padding = 1
 
 label-urgent = %name%
@@ -125,7 +125,7 @@ label-urgent-padding = 1
 label-empty = %name%
 label-empty-foreground = #EEFFFF
 label-empty-padding = 1
-label-empty-background = #1B2121
+label-empty-background = #222325
 format-foreground = #EEFFFF
 format-background = #3C4D54
 
@@ -220,7 +220,7 @@ label-foreground =  #EEFFFF
 type = custom/text
 content = 
 content-padding = 2
-content-background = #4E828A
+content-background = #8196A7
 content-foreground = #141417
 click-left = $HOME/.config/polybar/scripts/sysmenu
 click-right = $HOME/.config/polybar/scripts/sysmenu

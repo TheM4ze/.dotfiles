@@ -44,7 +44,7 @@ eval $(thefuck --alias f)
 #test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || \
 #    eval "$(dircolors -b)"
 
-
+#$HOME/.bin/term/xfetch.sh
 #StarShip
 eval "$(starship init zsh)"
 

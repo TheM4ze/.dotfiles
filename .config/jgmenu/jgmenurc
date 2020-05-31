@@ -4,7 +4,7 @@ stay_alive           = 1
 #hide_on_startup     = 0
 #csv_cmd              = pmenu
 tint2_look           = 1
-position_mode        = 1
+#position_mode        = 1
 terminal_exec        = xterm
 terminal_args        = -e
 #monitor             = 0
@@ -48,17 +48,17 @@ icon_size            = 24
 #arrow_string        = ▸
 4arrow_width         = 25
 
-color_menu_bg        = #141417 100
+color_menu_bg        = #141B1F 100
 color_menu_fg        = #EEFFFF 100
-#color_menu_border   = #141417 8
+#color_menu_border   = #141B1F 8
 
-color_norm_bg        = #141417 0
+color_norm_bg        = #141B1F 0
 color_norm_fg        = #EEFFFF 100
 
-color_sel_bg         = #5F655A 100
-color_sel_fg         = #141417 100
-color_sel_border     = #141417 8
+color_sel_bg         = #78AAE8 100
+color_sel_fg         = #141B1F 100
+color_sel_border     = #141B1F 8
 
-color_sep_fg         = #5F655A 40
+color_sep_fg         = #78AAE8 40
 
 #csv_name_format     = %n (%g)

@@ -1,8 +1,8 @@
 static const char *font = "JetBrains Mono:size=9";
-static const char *background = "#141417";
+static const char *background = "#12171E";
 static const char *foreground = "#828595";
-static const char *selbackground = "#82AAFF";
-static const char *selforeground = "#141417";
+static const char *selbackground = "#00C9EA";
+static const char *selforeground = "#12171E";
 static const char *separator = "#CDC7C2";
 static const char *border = "#5F655A";
 static int width = 175;

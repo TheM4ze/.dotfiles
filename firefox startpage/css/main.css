@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #141417;
+  background: #141B1F;
   color: #fff; }
 
 .main {
@@ -36,7 +36,7 @@ body {
     .main #search-bar input {
       height: inherit;
       width: 100%;
-      background: #2e2e2e;
+      background: #141B1F;
       box-shadow: none;
       border: none;
       text-align: center;
@@ -46,7 +46,7 @@ body {
       font-size: 18px;
       color: #fff; }
       .main #search-bar input:focus {
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        box-shadow: 0 1px 3px #141B1F, 0 1px 2px #141B1F;
         transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
     @media only screen and (max-width: 791px) {
       .main #search-bar {
@@ -60,7 +60,7 @@ body {
       margin-left: 5px;
       margin-right: 5px;
       width: 170px;
-      background: #141417;
+      background: #141B1F;
       padding: 15px 15px;
       border-radius: 6px;
       min-height: 150px; }
@@ -82,13 +82,13 @@ body {
           text-decoration: none;
           transition: .1s ease-in; }
     .main #other-content .media h4, .main #other-content .media a:hover {
-      color: #82AAFF; }
+      color: #78AAE8; }
     .main #other-content .work h4, .main #other-content .work a:hover {
       color: #F06292; }
     .main #other-content .social h4, .main #other-content .social a:hover {
       color: #FFF176; }
     .main #other-content .others h4, .main #other-content .others a:hover {
-      color: #81C784; }
+      color: #8DB66A; }
     .main #other-content .funky h4, .main #other-content .funky a:hover {
       color: #FF8A65; }
     .main #other-content .purple h4, .main #other-content .purple a:hover {
@@ -108,7 +108,7 @@ body {
   height: 80vh;
   overflow: auto;
   background: #fff;
-  color: #141417;
+  color: #141B1F;
   padding: 15px; }
   .settings-modal .modal-content {
     width: 100%;

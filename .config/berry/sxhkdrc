@@ -6,9 +6,6 @@
 #------------------------------------HOW TO EXIT, LOGOUT, SUSPEND
 
 
-super + x
-  oblogout
-
 ctrl + Escape
 	berryc quit
 
@@ -74,6 +71,12 @@ super + m
 
 super + g
   gpick
+
+super + x
+  /home/babyjesus/.config/xmenu/xmenu.sh
+
+super + d
+  discord
 
 
 #------------------------------------APPLICATIONS

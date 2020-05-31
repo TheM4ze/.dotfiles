@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/babyjesus/.config/wpg/wallpapers/bluehill.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#181a1c",
+        "foreground": "#f7fdff",
+        "cursor": "#f7fdff"
+    },
+    "colors": {
+        "color0": "#181a1c",
+        "color1": "#CBDAF0",
+        "color2": "#CCCED3",
+        "color3": "#C8B6A8",
+        "color4": "#ADB6C4",
+        "color5": "#A0A1A5",
+        "color6": "#9AB3C4",
+        "color7": "#e3e9f1",
+        "color8": "#2f3337",
+        "color9": "#d0f6ff",
+        "color10": "#e1f2ff",
+        "color11": "#ffe9c2",
+        "color12": "#c8e7ff",
+        "color13": "#bac4eb",
+        "color14": "#b1edff",
+        "color15": "#f7fdff"
+    }
+}

@@ -36,7 +36,7 @@ menuitem:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1000% 1000%;
-  color: #828595;
+  color: #A9A9A9;
 }
 
 .thunar * button:disabled {
@@ -48,7 +48,7 @@ menuitem:hover {
   animation: ripple_effect 225ms cubic-bezier(0, 0, 0.2, 1) forwards;
   background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 10%, transparent 0%);
   background-size: 0% 0%;
-  color: #828595;
+  color: #A9A9A9;
 }
 
 .thunar * button image,
@@ -75,7 +75,7 @@ menuitem:hover {
 
 .thunar * treeview {
 	background-color: #080D10;
-	color: #828595;
+	color: #A9A9A9;
 }
 
 .thunar * .view:selected {
@@ -94,11 +94,11 @@ menuitem:hover {
 }
 
 .thuanr * .view:hover {
-	background-image: image(#828595);
+	background-image: image(#A9A9A9);
 }
 
 .thunar * .path-bar-button:checked {
-	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #828595 100%, transparent 0%) 0 0 2/0 0 2px;
+	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #A9A9A9 100%, transparent 0%) 0 0 2/0 0 2px;
 }
 
 notebook-header {

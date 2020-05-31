@@ -1,17 +1,16 @@
 {
   "squares": [
     { "name": "Work", "links": [
-        { "name": "Github", "url": "https://github.com" },
         { "name": "Notion", "url": "https://www.notion.so/Linux-9fc1cb630ac342b08eee1738adf7cb31" },
         { "name": "Google Drive", "url": "https://drive.google.com/drive/u/0/my-drive" },
         { "name": "Google Docs", "url": "https://docs.google.com/document/u/0/" }
       ]
     },
     { "name": "Social", "links": [
+        { "name": "Github", "url": "https://github.com" },
         { "name": "Reddit", "url": "https://reddit.com" },
         { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "ArchLabs", "url": "https://forum.archlabslinux.com/" },
-        { "name": "Github", "url": "https://github.com" }
+        { "name": "ArchLabs", "url": "https://forum.archlabslinux.com/" }
       ]
     },
     { "name": "Mail", "links": [

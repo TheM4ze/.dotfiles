@@ -39,33 +39,33 @@ draw_bold_text_with_bright_colors: true
 # Color Settings
 colors:
   primary:
-    background: '#141417'
-    foreground: '#89898C'
+    background: '#141B1F'
+    foreground: '#434C5E'
 
   normal:
     black:   '#141417'
     red:     '#cc241d'
-    green:   '#4E828A'
-    yellow:  '#d79921'
-    blue:    '#458588'
+    green:   '#90BAB4'
+    yellow:  '#BAC4EB'
+    blue:    '#FFD7AB'
     magenta: '#b16286'
-    cyan:    '#689d6a'
-    white:   '#89898C'
+    cyan:    '#BAC4EB'
+    white:   '#607A86'
 
   bright:
-    black:   '#89898C'
-    red:     '#7A8F68'
-    green:   '#7A8F68'
-    yellow:  '#376A65'
-    blue:    '#343D41'
-    magenta: '#82AAFF'
-    cyan:    '#D8A57D'
-    white:   '#82AAFF'
+    black:   '#78AAE8'
+    red:     '#434C5E'
+    green:   '#FFE9C2'
+    yellow:  '#78AAE8'
+    blue:    '#434C5E'
+    magenta: '#4E88F3'
+    cyan:    '#FFE9C2'
+    white:   '#4E88F3'
 
   selection:
     text: '0x141417'
-    background: '0x4E828A'
-    white:   '0x4E828A'
+    background: '0x78AAE8'
+    white:   '0x78AAE8'
 cursor:
   style: Block
   unfocused_hollow: true
